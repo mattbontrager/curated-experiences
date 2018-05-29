@@ -1,0 +1,22 @@
+{
+  "name": "curated-experiences",
+  "authors": [
+    "Matt Bontrager <matt.bontrager@icloud.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "moment": "^2.22.1"
+  }
+}

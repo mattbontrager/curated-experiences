@@ -1,0 +1,1242 @@
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "COCKTAIL"
+		}
+	],
+	"details" : {
+		"name" : "Le Zinc",
+		"description" : "Restaurant and Bar",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 257-4151"
+		],
+		"name" : "Le Zinc",
+		"email" : null,
+		"website" : "http://www.le-zn.com",
+		"address" : "1449 E Pine St (at 15th Ave E), Seattle, WA 98122, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "East Pine Street, 1429-1499, Seattle, WA, United States, 98122",
+			"zip_code" : "98122",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "East Pine Street",
+			"street_number" : "1429-1499"
+		}
+	],
+	"thumbnail": "https://irs1.4sqi.net/img/general/width1000/59839114_DqpWDJNB-VBZaq10NgtwWjLeH6j7MWaJkKchPv1nWqo.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"american_express" : true,
+		"master_card" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "bfd2c85a-9e61-48e0-a34d-dc86c1d2e92a",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "VIETNAMESE"
+		},
+		{
+			"code" : "ASIAN"
+		}
+	],
+	"details" : {
+		"name" : "Ba Bar",
+		"description" : "Ba Bar - Street Food, Cold Drink.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : "open late",
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 328-2030"
+		],
+		"name" : "Ba Bar",
+		"email" : null,
+		"website" : "http://babarseattle.com",
+		"address" : "550 12th Ave (at E Barclay St), Seattle, WA 98122, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "12th Avenue, 550, Seattle, WA, United States, 98122",
+			"zip_code" : "98122",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "12th Avenue",
+			"street_number" : "550"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width720/117379_PbNexIWf_h5VQ6AhChNH8NhRTOds6TaP0YgYUoQyWio.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"american_express" : true,
+		"outdoor_seating" : false,
+		"beer" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "7ddd7fd0-5b7e-47ea-88e1-127f2f89b48f",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "COCKTAIL"
+		},
+		{
+			"code" : "BAR"
+		}
+	],
+	"details" : {
+		"name" : "Cask & Trotter",
+		"description" : null,
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 453-4756"
+		],
+		"name" : "Cask & Trotter",
+		"email" : null,
+		"website" : "http://caskandtrotter.com",
+		"address" : "711 Westlake Ave N (at Valley St), Seattle, WA 98109, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "Westlake Avenue North, 711, Seattle, WA, United States, 98109",
+			"zip_code" : "98109",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "Westlake Avenue North",
+			"street_number" : "711"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width640/6790017_QQiwCRb-2IWwYxmfreRHd8ChwgPofb6CFZaD0USWA_I.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "6a27ca81-2890-47a5-bae1-87f1891a04b3",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "COCKTAIL"
+		}
+	],
+	"details" : {
+		"name" : "Daily Grill",
+		"description" : "Inspired by the great city grills of yesteryear with intimate booths, private dining and fashionable bar.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : "catering,cobb salad,happy hour,martini,pot pie,private dining,seafood,steak,take out",
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 624-8400"
+		],
+		"name" : "Daily Grill",
+		"email" : null,
+		"website" : "http://t.co/GmPLdB5Wf0",
+		"address" : "629 Pike St (btwn Pike & Union), Seattle, WA 98101, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "7th Avenue, 1481-1499, Seattle, WA, United States, 98101",
+			"zip_code" : "98101",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "7th Avenue",
+			"street_number" : "1481-1499"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width547/25156_MqTcvnTPVWGPr1dwit6vSFgg_GlVkf74sOXZzrNH9fc.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 3,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"discover" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : false,
+		"wine" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "2967b413-3d63-46f9-ac3e-b8666973a1c4",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "SPEAKEASY"
+		},
+		{
+			"code" : "BAR"
+		},
+		{
+			"code" : "COCKTAIL"
+		}
+	],
+	"details" : {
+		"name" : "Tavern Law",
+		"description" : null,
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : "bar,cocktails,small plates,speakeasy",
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 322-9734"
+		],
+		"name" : "Tavern Law",
+		"email" : null,
+		"website" : "http://www.tavernlaw.com",
+		"address" : "1406 12th Ave (at Madison St), Seattle, WA 98122, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "12th Avenue, 1405, Seattle, WA, United States, 98122",
+			"zip_code" : "98122",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "12th Avenue",
+			"street_number" : "1405"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width720/zTFYa4Pg5Un2mL83LelUg_xVJqHPbeV9M_cuWRiXrsM.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 3,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"american_express" : true,
+		"master_card" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : false,
+		"beer" : true,
+		"wine" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "676a85b5-5005-429e-b5bc-1b53e5a952d3",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "OTHER"
+		},
+		{
+			"code" : "COCKTAIL"
+		}
+	],
+	"details" : {
+		"name" : "Can Can",
+		"description" : "Open from 6:00pm - 2:00am everyday!  Happy Hour Sunday through Thursday 6:00pm - 8:00pm, and 11:00pm to close.  \r\n\r\nCabaret/Burlesque shows with our resident dancers the Can Can Castaways are on Wednesdays at 7:30pm, Fridays at 7:30pm and 10:30pm, and Saturdays at 7:30pm and 10:30pm.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : "burlesque,cabaret,live music,underground",
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 652-0832"
+		],
+		"name" : "Can Can",
+		"email" : null,
+		"website" : "http://www.thecancan.com",
+		"address" : "94 Pike St (at 1st Ave), Seattle, WA 98101, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "1st Avenue, 1501, Seattle, WA, United States, 98101",
+			"zip_code" : "98101",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "1st Avenue",
+			"street_number" : "1501"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width720/K1SLJG2TC3JEB42ODMX0KQQDPYUJFH1VRSYO3W5LMQFACJBT.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"american_express" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : false,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "cf023dff-a259-4eb1-ab0d-1f696302bb82",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "BAR"
+		}
+	],
+	"details" : {
+		"name" : "The J & M Cafe",
+		"description" : null,
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : "bar,liquor",
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 467-2666"
+		],
+		"name" : "The J & M Cafe",
+		"email" : null,
+		"website" : "http://www.jandmcafe.com",
+		"address" : "201 1st Ave S (at S Washington St), Seattle, WA 98104, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "1st Avenue South, 201-207, Seattle, WA, United States, 98104",
+			"zip_code" : "98104",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "1st Avenue South",
+			"street_number" : "201-207"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width720/5256752_HOsm87rVknXbs9hs0ZGA05lI571Taoyw3PDWGtEwSZk.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"american_express" : true,
+		"outdoor_seating" : true,
+		"has_wifi" : true,
+		"beer" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "406f891d-abad-40fc-bb0a-487a23dbe009",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "COCKTAIL"
+		}
+	],
+	"details" : {
+		"name" : "Radiator Whiskey",
+		"description" : null,
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 467-4268"
+		],
+		"name" : "Radiator Whiskey",
+		"email" : null,
+		"website" : "http://www.radiatorwhiskey.com",
+		"address" : "94 Pike St Ste 30 (at 1st Ave), Seattle, WA 98101, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "1st Avenue, 1501, Seattle, WA, United States, 98101",
+			"zip_code" : "98101",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "1st Avenue",
+			"street_number" : "1501"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width612/961718_Jhcca_mRQNVkQg34ACXGSSxwLyIvxzAN-NO23-1qgz8.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"discover" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : false,
+		"beer" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "89118482-d930-4d19-b4a2-10c02395e698",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "SUSHI"
+		}
+	],
+	"details" : {
+		"name" : "Sushi Kashiba",
+		"description" : null,
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 441-8844"
+		],
+		"name" : "Sushi Kashiba",
+		"email" : null,
+		"website" : "http://sushikashiba.com",
+		"address" : "86 Pine St Ste 1, Seattle, WA 98101, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "Post Alley, 1600, Seattle, WA, United States, 98101",
+			"zip_code" : "98101",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "Post Alley",
+			"street_number" : "1600"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width1000/66729_bg4tg_tPGXBz9bLtNMfs5Mzlq-HwRrLPjetF0Eo-t7I.jpg",
+	"menus" : [
+		{
+			"data" : [ ],
+			"groups" : [ ],
+			"description" : null,
+			"name" : "Menu",
+			"url" : "http://sushikashiba.com/menu/",
+			"type" : "URL"
+		}
+	],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"american_express" : true,
+		"master_card" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : true,
+		"full_bar" : true,
+		"cocktails" : true,
+		"wheelchair_accessible" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "dd088d02-f5e8-47f0-a799-3099fb6a3e35",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "AMERICAN"
+		}
+	],
+	"details" : {
+		"name" : "The Mix Martini Lounge",
+		"description" : "The Mix Martini Lounge is located in the heart of Belltown. Come enjoy the best priced craft martinis on the block while enjoying a New American Style dish!",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 448-2656"
+		],
+		"name" : "The Mix Martini Lounge",
+		"email" : null,
+		"website" : null,
+		"address" : "2318 2nd Ave (Bell St.), Seattle, WA 98121, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "2nd Avenue, 2311-2319, Seattle, WA, United States, 98121",
+			"zip_code" : "98121",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "2nd Avenue",
+			"street_number" : "2311-2319"
+		}
+	],
+	"thumbnail": "https://irs0.4sqi.net/img/general/width960/8685879_4-LXg9xWGXA3wq09bqSU1UOfRNTygsMuYHgwwjFxyro.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"discover" : true,
+		"outdoor_seating" : true,
+		"has_wifi" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "cccfc74d-5b68-4e7e-8bc2-45a0be3a89cb",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "BAR"
+		}
+	],
+	"details" : {
+		"name" : "Number 6 Cider",
+		"description" : "Tasting room and cidery for all varieties of Number 6 Cider, we craft our offerings right beside the train tracks that inspired our name.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 451-9758"
+		],
+		"name" : "Number 6 Cider",
+		"email" : null,
+		"website" : null,
+		"address" : "945 Elliott Ave W Ste 203 (W Prospect St), Seattle, WA 98119, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "Elliott Avenue West, 945, Seattle, WA, United States, 98119",
+			"zip_code" : "98119",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "Elliott Avenue West",
+			"street_number" : "945"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width1000/23370778_i4jLbup7prfg1qoeRCkOJMeGzg9pxuKwYDkViUtyuzU.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "NIGHTLIFE",
+		"name" : "Nightlife"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"discover" : true,
+		"outdoor_seating" : false,
+		"has_wifi" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "931a4501-7a6b-4627-9618-f430c112fcce",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "ASIAN"
+		}
+	],
+	"details" : {
+		"name" : "Cha:n",
+		"description" : "Chan offers traditional Korean dishes using Western ingredients and modern cooking techniques. Korean-born Chef Heong Soon Park and his team bring diners an outstanding array of powerful flavors which blend spicy, salty, sour, sweet and umami on the plate.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 443-5443"
+		],
+		"name" : "Cha:n",
+		"email" : null,
+		"website" : "http://chanseattle.com",
+		"address" : "83 Pine St. (Stewart), Seattle, WA 98101, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "Washington 99, 1101, Seattle, WA, United States",
+			"zip_code" : null,
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "Washington 99",
+			"street_number" : "1101"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width612/5415911_SXCJBpllKXAsUyB6DyEdVhR5ohqECtXL5SAp8C8r_5E.jpg",
+	"menus" : [
+		{
+			"data" : [ ],
+			"groups" : [ ],
+			"description" : null,
+			"name" : "Menu",
+			"url" : "http://www.chanseattle.com/#!eat/yym4t",
+			"type" : "URL"
+		}
+	],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"outdoor_seating" : false,
+		"full_bar" : true,
+		"cocktails" : true,
+		"wheelchair_accessible" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "01f895ad-b217-434a-a54a-d1939a0783d9",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "GREEK"
+		}
+	],
+	"details" : {
+		"name" : "Omega Ouzeri",
+		"description" : null,
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 257-4515"
+		],
+		"name" : "Omega Ouzeri",
+		"email" : null,
+		"website" : "http://www.omegaouzeri.com",
+		"address" : "1529 14th Ave, Seattle, WA 98122, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "14th Avenue, 1547-1599, Seattle, WA, United States, 98122",
+			"zip_code" : "98122",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "14th Avenue",
+			"street_number" : "1547-1599"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width1000/393378781_ncts_MtuvUr0s2CJ4Xu53FwuCUiv7HANo1pXTBD7648.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 1,
+		"has_reservation" : true,
+		"wine" : true,
+		"full_bar" : true,
+		"cocktails" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "153bf299-496a-42c9-894a-74bf4f2c5eff",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "CHINESE"
+		},
+		{
+			"code" : "ASIAN"
+		}
+	],
+	"details" : {
+		"name" : "Red Lantern",
+		"description" : "Your search for authentic Northern Chinese-Korean cuisine stops at Red Lantern. Take your taste buds on a new journey and experience our delicious food.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 682-7211"
+		],
+		"name" : "Red Lantern",
+		"email" : null,
+		"website" : "http://www.redlanternseattle.com",
+		"address" : "520 S Jackson St, Seattle, WA 98104, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "South Jackson Street, 516, Seattle, WA, United States, 98104",
+			"zip_code" : "98104",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "South Jackson Street",
+			"street_number" : "516"
+		}
+	],
+	"thumbnail": "https://igx.4sqi.net/img/general/width1000/129309276_rjBKIOro9n3iSnT_YRDMtkpk5oQlHr2DGladCRADa_Q.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 1,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"discover" : true,
+		"outdoor_seating" : false,
+		"full_bar" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "7fc60424-5f66-4152-b782-c7cbb7bbb593",
+	"price_starting_at" : 0
+},
+{
+	"languages" : [
+		"en"
+	],
+	"categories" : [
+		{
+			"code" : "ITALIAN"
+		}
+	],
+	"details" : {
+		"name" : "Bellini Italian Bistro",
+		"description" : "Come and experience chef Gabriele's rustic style of combining fresh, flavorful ingredients, both imported and local, into satisfying feasts for all to enjoy.",
+		"hours_operation" : null,
+		"parking_directions" : null,
+		"duration" : null,
+		"languages" : null,
+		"highlights" : null,
+		"inclusions" : null,
+		"exclusions" : null,
+		"starting_location" : null,
+		"ending_location" : null,
+		"pick_up" : null,
+		"drop_off" : null,
+		"tags" : null,
+		"things_to_bring" : null,
+		"tipping_policy" : null,
+		"dress_code" : null,
+		"additional_info" : null
+	},
+	"contact" : {
+		"phones" : [
+			"(206) 441-4480"
+		],
+		"name" : "Bellini Italian Bistro",
+		"email" : null,
+		"website" : "http://m.belliniseattle.com",
+		"address" : "2302 1st Ave (Bell), Seattle, WA 98121, United States",
+		"fax" : null
+	},
+	"locations" : [
+		{
+			"location" : {
+				"coordinates" : [ ]
+			},
+			"iata" : "BFI",
+			"address" : "1st Avenue, 2332-2350, Seattle, WA, United States, 98121",
+			"zip_code" : "98121",
+			"country_code" : "US",
+			"country" : "United States",
+			"region_code" : "WA",
+			"region" : "Washington",
+			"city_district" : null,
+			"city" : "Seattle",
+			"street_name" : "1st Avenue",
+			"street_number" : "2332-2350"
+		}
+	],
+	"thumbnail": "https://irs1.4sqi.net/img/general/width816/83330665_YmNuPQH0L5JivXSKeolyENZgF3uZLgO2vN_7zNlBz1s.jpg",
+	"menus" : [ ],
+	"availabilities" : [ ],
+	"type" : {
+		"code" : "DINING",
+		"name" : "Dining"
+	},
+	"currency" : "USD",
+	"features" : {
+		"price_range" : 2,
+		"has_reservation" : true,
+		"credit_card" : true,
+		"visa" : true,
+		"discover" : true,
+		"outdoor_seating" : true,
+		"beer" : true,
+		"wine" : true,
+		"wheelchair_accessible" : true
+	},
+	"stop_sale_hours" : 0,
+	"company_uuid" : "836122a9-fdc7-4f34-bc75-2d47488167c0",
+	"uuid" : "457d92d4-9d60-41d3-ab78-3ca536c48987",
+	"price_starting_at" : 0
+}

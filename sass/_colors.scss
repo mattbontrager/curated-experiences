@@ -1,0 +1,95 @@
+// PRIMARY COLORS
+
+/**
+ * To be used in alarmist contexts, delete, remove, cancel.
+ * Use sparingly or it reduces the impact.
+ **/
+
+$red: #E8675D;
+
+/**
+ * Default accent color, it's also the specific categorization color of the strings.
+ **/
+
+$gold: #EAAE6E;
+
+/**
+ * Color tied to features, as well as the confirmative opposite
+ * of red to be used in contexts of save and comfirm.
+ **/
+$green: #51B764;
+
+/**
+ * Color tied to packages, E2.5, D70, etc.
+ * Also applies to the branding of TMT, as well
+ * as controls to rename, copy, and paste.
+ **/
+$blue: #68ACE3;
+
+/**
+ * The violet differentiates model year, and also
+ * is the color of the administrative section.
+ **/
+$violet: #8B89F2;
+
+// SECONDARY COLORS
+
+/**
+ * Eggshell white for text on dark backgrounds
+ * to prevent a harsh black and white heavy contrast.
+ * Increases legibility.
+ **/
+$eggshell: #F2F2F2;
+
+/**
+ * Used for the property panel to differentiate from the feature area.
+ **/
+$lt-gray: #CCCCCC;
+
+$gray: #C1C3C7;
+
+$cobalt: #505261;
+
+$navy: #32313F;
+
+$dk-navy: #24242D;
+
+$property-box-bg: #E6E6E6;
+$property-box: $cobalt;
+
+/**
+ * Charcoal, background for the navigation panel,
+ * the dark/light contrast with the feature area
+ * provides a differentiation on content.
+ **/
+$dk-gray: #333333;
+
+/**
+ * Not pure black. But still pretty metal.
+ **/
+$black: #1E1B1B;
+
+$white: #FFFFFF;
+
+/**
+ * top third nav gradient
+ **/
+$top-stop: #505261;
+
+/**
+ * middle third nav gradient
+ **/
+$mid-stop: #32313F;
+
+/**
+ * bottom third nav gradient
+ **/
+$last-stop: #24242D;
+
+.blue {
+	color: $blue !important;
+}
+
+.blue-bg {
+	background-color: $blue;
+}

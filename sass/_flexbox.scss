@@ -1,0 +1,129 @@
+@import "compass/css3/flexbox";
+
+@mixin alignItems($alignment) {
+	@include align-items($alignment);
+}
+
+@mixin alignContent($alignment) {
+	@include align-content($alignment);
+}
+
+@mixin justifyContent($justification) {
+	@include justify-content($justification);
+}
+
+@mixin ord($int) {
+	@include order($int);
+}
+
+%flexbox {
+	@include display-flex;
+}
+
+// DIRECTION
+%row {
+	@extend %flexbox;
+	@include flex-direction(row);
+}
+%column {
+	@extend %flexbox;
+	@include flex-direction(column);
+}
+
+// WRAP
+%wrap {
+	@include flex-wrap(wrap);
+}
+%nowrap {
+	@include flex-wrap(nowrap);
+}
+
+// SPACING
+%spaceAround {
+	@include justify-content(space-around);
+}
+%spaceBetween {
+	@include justify-content(space-between);
+}
+
+// ALIGNMENT
+%hCenter {
+	@include justify-content(center);
+}
+
+%vCenter {
+	@include align-items(center);
+}
+%vBottom {
+	@include align-items(flex-end);
+}
+
+%vFill {
+	@include align-items(stretch);
+}
+
+%absoluteCenter {
+	@extend %hCenter;
+	@extend %vCenter;
+}
+
+.flex {
+	@extend %flexbox;
+}
+
+.column {
+	@extend %column;
+}
+
+.top {
+	@include ord(1);
+}
+.middle {
+	@include ord(2);
+}
+.bottom {
+	@include ord(3);
+}
+
+
+.row {
+	@extend %row;
+}
+
+.left {
+	@include ord(1);
+}
+.right {
+	@include ord(2);
+}
+
+.space-between {
+	@extend %spaceBetween;
+}
+.space-around {
+	@extend %spaceAround;
+}
+
+.absolute-center {
+	@extend %absoluteCenter;
+}
+
+
+.wrap {
+	@include flex-wrap(wrap);
+}
+.no-wrap {
+	@include flex-wrap(nowrap);
+}
+
+.v-center {
+	@extend %vCenter;
+}
+
+.row.stretch {
+	@extend %vFill;
+}
+
+.column.stretch {
+	@include justify-content(stretch);
+}

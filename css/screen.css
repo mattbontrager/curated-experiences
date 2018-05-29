@@ -1,0 +1,573 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,400,500,700");
+/* line 5, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 19, ../sass/_flexbox.scss */
+.row, .column, .flex {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 24, ../sass/_flexbox.scss */
+.row {
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+/* line 28, ../sass/_flexbox.scss */
+.column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+/* line 42, ../sass/_flexbox.scss */
+.space-around {
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+}
+
+/* line 45, ../sass/_flexbox.scss */
+.space-between {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+/* line 50, ../sass/_flexbox.scss */
+.absolute-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 54, ../sass/_flexbox.scss */
+.absolute-center, .v-center {
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* line 61, ../sass/_flexbox.scss */
+.row.stretch {
+  -webkit-align-items: stretch;
+  align-items: stretch;
+}
+
+/* line 78, ../sass/_flexbox.scss */
+.top {
+  -webkit-order: 1;
+  order: 1;
+}
+
+/* line 81, ../sass/_flexbox.scss */
+.middle {
+  -webkit-order: 2;
+  order: 2;
+}
+
+/* line 84, ../sass/_flexbox.scss */
+.bottom {
+  -webkit-order: 3;
+  order: 3;
+}
+
+/* line 93, ../sass/_flexbox.scss */
+.left {
+  -webkit-order: 1;
+  order: 1;
+}
+
+/* line 96, ../sass/_flexbox.scss */
+.right {
+  -webkit-order: 2;
+  order: 2;
+}
+
+/* line 112, ../sass/_flexbox.scss */
+.wrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* line 115, ../sass/_flexbox.scss */
+.no-wrap {
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+/* line 127, ../sass/_flexbox.scss */
+.column.stretch {
+  -webkit-justify-content: stretch;
+  justify-content: stretch;
+}
+
+/**
+ * To be used in alarmist contexts, delete, remove, cancel.
+ * Use sparingly or it reduces the impact.
+ **/
+/**
+ * Default accent color, it's also the specific categorization color of the strings.
+ **/
+/**
+ * Color tied to features, as well as the confirmative opposite
+ * of red to be used in contexts of save and comfirm.
+ **/
+/**
+ * Color tied to packages, E2.5, D70, etc.
+ * Also applies to the branding of TMT, as well
+ * as controls to rename, copy, and paste.
+ **/
+/**
+ * The violet differentiates model year, and also
+ * is the color of the administrative section.
+ **/
+/**
+ * Eggshell white for text on dark backgrounds
+ * to prevent a harsh black and white heavy contrast.
+ * Increases legibility.
+ **/
+/**
+ * Used for the property panel to differentiate from the feature area.
+ **/
+/**
+ * Charcoal, background for the navigation panel,
+ * the dark/light contrast with the feature area
+ * provides a differentiation on content.
+ **/
+/**
+ * Not pure black. But still pretty metal.
+ **/
+/**
+ * top third nav gradient
+ **/
+/**
+ * middle third nav gradient
+ **/
+/**
+ * bottom third nav gradient
+ **/
+/* line 89, ../sass/_colors.scss */
+.blue {
+  color: #68ACE3 !important;
+}
+
+/* line 93, ../sass/_colors.scss */
+.blue-bg {
+  background-color: #68ACE3;
+}
+
+/* line 10, ../sass/_typography.scss */
+html {
+  font-size: 10px;
+}
+
+/* line 12, ../sass/_typography.scss */
+html, body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 18, ../sass/_typography.scss */
+h1 {
+  font: normal 500 5rem "Roboto", sans-serif;
+}
+
+/* line 20, ../sass/_typography.scss */
+h3 {
+  font: normal 400 3.7rem "Roboto", sans-serif;
+}
+
+/* line 22, ../sass/_typography.scss */
+h4 {
+  font: normal 100 2.6rem "Roboto", sans-serif;
+}
+
+/* line 24, ../sass/_typography.scss */
+p {
+  margin: 0 !important;
+  color: #FFFFFF;
+}
+
+/* line 33, ../sass/_typography.scss */
+.truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 39, ../sass/_typography.scss */
+.search-location {
+  font: normal 400 3.7rem "Roboto", sans-serif;
+}
+
+/* line 43, ../sass/_typography.scss */
+.card-type {
+  font: normal 100 2.2rem "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 48, ../sass/_typography.scss */
+.card-title {
+  font: normal 700 2.5rem "Roboto", sans-serif;
+  text-align: left;
+}
+
+/* line 53, ../sass/_typography.scss */
+.no-results-container {
+  text-align: center;
+}
+/* line 55, ../sass/_typography.scss */
+.no-results-container .no-results {
+  text-transform: uppercase;
+  font: normal 100 2.2rem "Roboto", sans-serif;
+}
+
+/* line 61, ../sass/_typography.scss */
+.result-detail-header {
+  text-align: left;
+}
+/* line 63, ../sass/_typography.scss */
+.result-detail-header > p {
+  font: normal 400 3.7rem "Roboto", sans-serif;
+}
+
+/* line 69, ../sass/_typography.scss */
+.result-detail-type > p {
+  font: normal 100 2.2rem "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 75, ../sass/_typography.scss */
+.result-detail-description {
+  text-align: left;
+}
+/* line 77, ../sass/_typography.scss */
+.result-detail-description > p {
+  font: normal 100 2.6rem "Roboto", sans-serif;
+}
+
+/* line 82, ../sass/_typography.scss */
+.result-detail.priceRange {
+  text-align: left;
+}
+/* line 84, ../sass/_typography.scss */
+.result-detail.priceRange > p {
+  font: normal 100 2.2rem "Roboto", sans-serif;
+}
+
+/* line 89, ../sass/_typography.scss */
+.result-detail-date-dropdown {
+  text-align: left;
+}
+
+/* line 93, ../sass/_typography.scss */
+.result-detail-check-button {
+  text-align: center;
+  font: normal 100 2.6rem "Roboto", sans-serif;
+}
+
+/* line 99, ../sass/_typography.scss */
+#types-list > li {
+  font: normal 100 2.6rem "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/_development.scss */
+.test {
+  border: 1px solid blue;
+}
+
+/* line 19, ../sass/screen.scss */
+.hidden {
+  display: none !important;
+}
+
+/* line 23, ../sass/screen.scss */
+.one {
+  background-image: url(https://igx.4sqi.net/img/general/width540/556543_MFjq_N4OSRlbFeEs-86k2p_F3h39JTvbIuQJBnlJdWE.jpg);
+}
+
+/* line 26, ../sass/screen.scss */
+.two {
+  background-image: url(https://igx.4sqi.net/img/general/width640/14096_xsSWl2TwydwSV4SphjbqU4DyXw0siL9MOVHTfy2g4dY.jpg);
+}
+
+/* line 29, ../sass/screen.scss */
+.three {
+  background-image: url(https://igx.4sqi.net/img/general/width1000/102704389_hKoAodYzemU2PHmG0WA6SNv7p09a-vdW1-A9y9ugaxU.jpg);
+}
+
+/* line 32, ../sass/screen.scss */
+.one, .two, .three {
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* line 38, ../sass/screen.scss */
+.close-icon {
+  background: url("../images/close.png") no-repeat center center;
+  background-size: contain;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+/* line 43, ../sass/screen.scss */
+.close-icon:hover {
+  cursor: pointer;
+}
+
+/* line 48, ../sass/screen.scss */
+.here-icon {
+  background: url("../images/location-icon.png") no-repeat center center;
+  background-size: contain;
+  height: 4rem;
+  width: 4rem;
+}
+/* line 53, ../sass/screen.scss */
+.here-icon:hover {
+  cursor: pointer;
+}
+
+/* line 58, ../sass/screen.scss */
+.there-icon {
+  background: url("../images/nav.png") no-repeat center center;
+  background-size: contain;
+  height: 4rem;
+  width: 4rem;
+}
+/* line 63, ../sass/screen.scss */
+.there-icon:hover {
+  cursor: pointer;
+}
+
+/* line 68, ../sass/screen.scss */
+.search-icon {
+  background: url("../images/search.png") no-repeat center center;
+  background-size: contain;
+  height: 4rem;
+  width: 4rem;
+}
+/* line 73, ../sass/screen.scss */
+.search-icon:hover {
+  cursor: pointer;
+}
+
+/* line 78, ../sass/screen.scss */
+.results-city {
+  color: #FFFFFF;
+}
+
+/* line 82, ../sass/screen.scss */
+body {
+  height: 768px;
+  max-height: 768px;
+  width: 1024px;
+  max-width: 1024px;
+  overflow: hidden;
+  /* */
+  /* */
+}
+/* line 89, ../sass/screen.scss */
+body:after {
+  background: url("../images/bg.jpg") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: -2rem;
+  left: -2rem;
+  right: -2rem;
+  bottom: -2rem;
+  content: "";
+  filter: opacity(95%) blur(1.5rem);
+  z-index: -1;
+}
+
+/* line 104, ../sass/screen.scss */
+button {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  background-color: inherit;
+}
+
+/* line 111, ../sass/screen.scss */
+ul {
+  list-style: none;
+}
+
+/* line 115, ../sass/screen.scss */
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* line 120, ../sass/screen.scss */
+#main-view {
+  -webkit-flex: 1;
+  flex: 1;
+}
+/* line 122, ../sass/screen.scss */
+#main-view > header {
+  -webkit-flex: 1;
+  flex: 1;
+}
+/* line 124, ../sass/screen.scss */
+#main-view > header > h1 {
+  -webkit-flex: 3;
+  flex: 3;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 1rem;
+}
+/* line 129, ../sass/screen.scss */
+#main-view > header .nav-buttons {
+  -webkit-flex: 1;
+  flex: 1;
+}
+/* line 132, ../sass/screen.scss */
+#main-view > header .nav-buttons > li:last-child {
+  margin-right: 2rem;
+}
+/* line 138, ../sass/screen.scss */
+#main-view #cards-container {
+  -webkit-flex: 8;
+  flex: 8;
+}
+/* line 141, ../sass/screen.scss */
+#main-view > footer {
+  width: 100vw;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 1rem;
+}
+/* line 145, ../sass/screen.scss */
+#main-view > footer #product-types {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 149, ../sass/screen.scss */
+#main-view > footer .product-type {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  height: 5rem;
+  width: 12rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  margin: 0 1rem;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 164, ../sass/screen.scss */
+.product-card {
+  -webkit-flex: 1;
+  flex: 1;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 25vw;
+  max-width: 25vw;
+  height: 60vh;
+  max-height: 60vh;
+}
+/* line 172, ../sass/screen.scss */
+.product-card > header {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-flex: 1;
+  flex: 1;
+  padding: 0.5rem;
+  position: relative;
+  background-color: rgba(10, 10, 10, 0.6);
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+/* line 181, ../sass/screen.scss */
+.product-card > header .product-type-name, .product-card > header .product-name {
+  color: #FFFFFF;
+  font-size: 3rem !important;
+}
+/* line 186, ../sass/screen.scss */
+.product-card > section {
+  -webkit-flex: 5;
+  flex: 5;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+/* line 193, ../sass/screen.scss */
+.product-card > section img {
+  min-width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+}

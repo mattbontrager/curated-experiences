@@ -1,0 +1,2651 @@
+{
+	"params": {
+		"sort": "-relevance",
+		"currency": "USD",
+		"type": "-transfer",
+		"lang": "en"
+	},
+	"pagination": {
+		"page": 1,
+		"per_page": 100,
+		"total": 794
+	},
+	"data": {
+		"uuid": "dde07402-767a-4fdd-829e-d7124e02d1ac",
+		"agent_uuid": null,
+		"date_from": "2017-10-12",
+		"date_to": "2017-10-20",
+		"location": {
+			"street_number": "909",
+			"street_name": null,
+			"city": "Seattle",
+			"city_district": null,
+			"region": "Washington",
+			"region_code": "WA",
+			"country": "United States",
+			"country_code": "US",
+			"zip_code": "98164",
+			"longitude": -122.3320708,
+			"latitude": 47.6062095,
+			"address": "Seattle, WA",
+			"iata": "BFI"
+		},
+		"travel_data": {
+			"pick_up": null,
+			"drop_off": null
+		},
+		"types": [],
+		"progress": [
+			{
+				"type": "TOUR",
+				"percentage": 100
+			},
+			{
+				"type": "ACTIVITY",
+				"percentage": 100
+			},
+			{
+				"type": "DINING",
+				"percentage": 100
+			},
+			{
+				"type": "NIGHTLIFE",
+				"percentage": 100
+			},
+			{
+				"type": "TRANSPORTATION",
+				"percentage": 100
+			},
+			{
+				"type": "BOXOFFICE",
+				"percentage": 100
+			},
+			{
+				"type": "TRANSFER",
+				"percentage": 100
+			}
+		],
+		"aggregation": [
+			{
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"total": 444,
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American",
+						"count": 58
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian",
+						"count": 57
+					},
+					{
+						"code": "CAFE",
+						"name": "Cafe",
+						"count": 54
+					},
+					{
+						"code": "MEXICAN",
+						"name": "Mexican",
+						"count": 50
+					},
+					{
+						"code": "VIETNAMESE",
+						"name": "Vietnamese",
+						"count": 46
+					},
+					{
+						"code": "CHINESE",
+						"name": "Chinese",
+						"count": 36
+					},
+					{
+						"code": "ITALIAN",
+						"name": "Italian",
+						"count": 36
+					},
+					{
+						"code": "SUSHI",
+						"name": "Sushi",
+						"count": 32
+					},
+					{
+						"code": "THAI",
+						"name": "Thai",
+						"count": 31
+					},
+					{
+						"code": "SEAFOOD",
+						"name": "Seafood",
+						"count": 22
+					},
+					{
+						"code": "INDIAN",
+						"name": "Indian",
+						"count": 17
+					},
+					{
+						"code": "JAPANESE",
+						"name": "Japanese",
+						"count": 16
+					},
+					{
+						"code": "FRENCH",
+						"name": "French",
+						"count": 14
+					},
+					{
+						"code": "BAR",
+						"name": "Bar",
+						"count": 11
+					},
+					{
+						"code": "SANDWICHES",
+						"name": "Sandwiches",
+						"count": 10
+					},
+					{
+						"code": "GREEK",
+						"name": "Greek",
+						"count": 9
+					},
+					{
+						"code": "PIZZA",
+						"name": "Pizza",
+						"count": 7
+					},
+					{
+						"code": "BURGERS",
+						"name": "Burgers",
+						"count": 5
+					},
+					{
+						"code": "DESSERTS",
+						"name": "Desserts",
+						"count": 5
+					},
+					{
+						"code": "GERMAN",
+						"name": "German",
+						"count": 5
+					},
+					{
+						"code": "STEAKHOUSE",
+						"name": "Steakhouse",
+						"count": 5
+					},
+					{
+						"code": "RUSSIAN",
+						"name": "Russian",
+						"count": 2
+					},
+					{
+						"code": "SPANISH",
+						"name": "Spanish",
+						"count": 2
+					},
+					{
+						"code": "BRAZILIAN",
+						"name": "Brazilian",
+						"count": 1
+					},
+					{
+						"code": "ENGLISH",
+						"name": "English",
+						"count": 1
+					}
+				],
+				"dates": [
+					{
+						"date": "2017-10-12",
+						"count": 441
+					},
+					{
+						"date": "2017-10-13",
+						"count": 443
+					},
+					{
+						"date": "2017-10-14",
+						"count": 425
+					},
+					{
+						"date": "2017-10-15",
+						"count": 404
+					},
+					{
+						"date": "2017-10-16",
+						"count": 423
+					},
+					{
+						"date": "2017-10-17",
+						"count": 435
+					},
+					{
+						"date": "2017-10-18",
+						"count": 441
+					},
+					{
+						"date": "2017-10-19",
+						"count": 441
+					},
+					{
+						"date": "2017-10-20",
+						"count": 443
+					}
+				]
+			},
+			{
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"total": 345,
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar",
+						"count": 91
+					},
+					{
+						"code": "LOUNGE",
+						"name": "Lounge",
+						"count": 52
+					},
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar",
+						"count": 49
+					},
+					{
+						"code": "SPEAKEASY",
+						"name": "Speakeasy",
+						"count": 30
+					},
+					{
+						"code": "WINE",
+						"name": "Wine Bar",
+						"count": 28
+					},
+					{
+						"code": "SPORTS",
+						"name": "Sports Bar",
+						"count": 27
+					},
+					{
+						"code": "NIGHTCLUB",
+						"name": "Nightclub",
+						"count": 26
+					},
+					{
+						"code": "PUB",
+						"name": "Pub",
+						"count": 17
+					},
+					{
+						"code": "BEER",
+						"name": "Beer Garden",
+						"count": 16
+					},
+					{
+						"code": "HOTEL",
+						"name": "Hotel Bar",
+						"count": 15
+					},
+					{
+						"code": "OTHER",
+						"name": "Other Nightlife",
+						"count": 15
+					},
+					{
+						"code": "BREWERY",
+						"name": "Brewery",
+						"count": 14
+					},
+					{
+						"code": "DIVE",
+						"name": "Dive Bar",
+						"count": 14
+					},
+					{
+						"code": "KARAOKE",
+						"name": "Karaoke Bar",
+						"count": 10
+					},
+					{
+						"code": "GAY",
+						"name": "Gay Bar",
+						"count": 7
+					},
+					{
+						"code": "MARKET",
+						"name": "Night Market",
+						"count": 4
+					},
+					{
+						"code": "HOOKAH",
+						"name": "Hookah Bar",
+						"count": 3
+					},
+					{
+						"code": "WHISKY",
+						"name": "Whisky Bar",
+						"count": 2
+					},
+					{
+						"code": "SAKE",
+						"name": "Sake Bar",
+						"count": 1
+					}
+				],
+				"dates": [
+					{
+						"date": "2017-10-12",
+						"count": 342
+					},
+					{
+						"date": "2017-10-13",
+						"count": 341
+					},
+					{
+						"date": "2017-10-14",
+						"count": 340
+					},
+					{
+						"date": "2017-10-15",
+						"count": 329
+					},
+					{
+						"date": "2017-10-16",
+						"count": 324
+					},
+					{
+						"date": "2017-10-17",
+						"count": 335
+					},
+					{
+						"date": "2017-10-18",
+						"count": 341
+					},
+					{
+						"date": "2017-10-19",
+						"count": 342
+					},
+					{
+						"date": "2017-10-20",
+						"count": 341
+					}
+				]
+			},
+			{
+				"type": {
+					"code": "BOXOFFICE",
+					"name": "Boxoffice"
+				},
+				"total": 3,
+				"categories": [
+					{
+						"code": "CONCERTS",
+						"name": "Concerts",
+						"count": 1
+					},
+					{
+						"code": "MUSICALS",
+						"name": "Musicals",
+						"count": 1
+					},
+					{
+						"code": "SOCCER",
+						"name": "Soccer",
+						"count": 1
+					}
+				],
+				"min_price": "16.17",
+				"max_price": "110.25",
+				"dates": [
+					{
+						"date": "2017-10-13",
+						"count": 1
+					},
+					{
+						"date": "2017-10-14",
+						"count": 1
+					},
+					{
+						"date": "2017-10-15",
+						"count": 2
+					},
+					{
+						"date": "2017-10-19",
+						"count": 1
+					},
+					{
+						"date": "2017-10-20",
+						"count": 1
+					}
+				],
+				"prices": [
+					{
+						"code": 1,
+						"range_start": null,
+						"range_end": 50,
+						"count": 1
+					},
+					{
+						"code": 2,
+						"range_start": 50,
+						"range_end": 100,
+						"count": 1
+					},
+					{
+						"code": 3,
+						"range_start": 100,
+						"range_end": 200,
+						"count": 1
+					},
+					{
+						"code": 4,
+						"range_start": 200,
+						"range_end": null,
+						"count": 0
+					}
+				]
+			},
+			{
+				"type": {
+					"code": "ACTIVITY",
+					"name": "Activity"
+				},
+				"total": 1,
+				"categories": [
+					{
+						"code": "ADVENTURE",
+						"name": "Adventure",
+						"count": 1
+					},
+					{
+						"code": "SKYDIVING",
+						"name": "Skydiving",
+						"count": 1
+					},
+					{
+						"code": "SPORT",
+						"name": "Sport",
+						"count": 1
+					}
+				],
+				"min_price": "59.95",
+				"max_price": "59.95",
+				"dates": [
+					{
+						"date": "2017-10-12",
+						"count": 1
+					},
+					{
+						"date": "2017-10-13",
+						"count": 1
+					},
+					{
+						"date": "2017-10-14",
+						"count": 1
+					},
+					{
+						"date": "2017-10-15",
+						"count": 1
+					},
+					{
+						"date": "2017-10-16",
+						"count": 1
+					},
+					{
+						"date": "2017-10-17",
+						"count": 1
+					},
+					{
+						"date": "2017-10-18",
+						"count": 1
+					},
+					{
+						"date": "2017-10-19",
+						"count": 1
+					},
+					{
+						"date": "2017-10-20",
+						"count": 1
+					}
+				],
+				"prices": [
+					{
+						"code": 1,
+						"range_start": null,
+						"range_end": 50,
+						"count": 0
+					},
+					{
+						"code": 2,
+						"range_start": 50,
+						"range_end": 100,
+						"count": 1
+					},
+					{
+						"code": 3,
+						"range_start": 100,
+						"range_end": 200,
+						"count": 0
+					},
+					{
+						"code": 4,
+						"range_start": 200,
+						"range_end": null,
+						"count": 0
+					}
+				]
+			},
+			{
+				"type": {
+					"code": "TOUR",
+					"name": "Tour"
+				},
+				"total": 1,
+				"categories": [
+					{
+						"code": "OTHER",
+						"name": "Other",
+						"count": 1
+					}
+				],
+				"min_price": "0.00",
+				"max_price": "0.00",
+				"dates": [
+					{
+						"date": "2017-10-12",
+						"count": 1
+					},
+					{
+						"date": "2017-10-13",
+						"count": 1
+					},
+					{
+						"date": "2017-10-14",
+						"count": 1
+					},
+					{
+						"date": "2017-10-15",
+						"count": 1
+					},
+					{
+						"date": "2017-10-16",
+						"count": 1
+					},
+					{
+						"date": "2017-10-17",
+						"count": 1
+					},
+					{
+						"date": "2017-10-18",
+						"count": 1
+					},
+					{
+						"date": "2017-10-19",
+						"count": 1
+					},
+					{
+						"date": "2017-10-20",
+						"count": 1
+					}
+				],
+				"prices": [
+					{
+						"code": 1,
+						"range_start": null,
+						"range_end": 50,
+						"count": 1
+					},
+					{
+						"code": 2,
+						"range_start": 50,
+						"range_end": 100,
+						"count": 0
+					},
+					{
+						"code": 3,
+						"range_start": 100,
+						"range_end": 200,
+						"count": 0
+					},
+					{
+						"code": 4,
+						"range_start": 200,
+						"range_end": null,
+						"count": 0
+					}
+				]
+			}
+		],
+		"results": [
+			{
+				"uuid": "488f5990-c92d-419e-9168-9bf04c237483",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/41637857__vUlUtkF3GHRxOPX1Q7EzIsZM-cP4hcxUcOPMWOw4Ag.jpg",
+				"name": "Annapurna Cafe",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "INDIAN",
+						"name": "Indian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "7ddd7fd0-5b7e-47ea-88e1-127f2f89b48f",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/117379_PbNexIWf_h5VQ6AhChNH8NhRTOds6TaP0YgYUoQyWio.jpg",
+				"name": "Ba Bar",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "VIETNAMESE",
+						"name": "Vietnamese"
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "c5c3c339-fef0-4d74-9485-93531b4c8499",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/90965603_8-IwsDA0GvB7BywE6Kp7GhyPFE97lEdGQ1RFql0wX0E.jpg",
+				"name": "Skillet Diner",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "cf023dff-a259-4eb1-ab0d-1f696302bb82",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/K1SLJG2TC3JEB42ODMX0KQQDPYUJFH1VRSYO3W5LMQFACJBT.jpg",
+				"name": "Can Can",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "OTHER",
+						"name": "Other Nightlife"
+					},
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "eb745999-26ba-48a6-97f9-653db3226ab7",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/184925_6_Xse6Jo-D1_d-fhIS2Wo4GwcZrMSoPOBUSncsXUN00.jpg",
+				"name": "The Saint",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "399e7f74-97cc-440f-8a5a-c92178682ccc",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/8497063_0htjcZ_8TzzmOPXGdO_8Hi1mLuSVv5rVNhDMaOLmwm4.jpg",
+				"name": "Queen Anne Beerhall",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BEER",
+						"name": "Beer Garden"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "a31f7733-0af2-4306-8168-3197ab329082",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/2277456_iAvVhymv2AkE54ZljwxvJWgXzHm-Vy8wLgGMS-PGpjk.jpg",
+				"name": "Maneki",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					},
+					{
+						"code": "JAPANESE",
+						"name": "Japanese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "c6988be7-9ade-4e56-81f3-d86cd8b97f39",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/12613691_LTTqpQlOlc31ozC98ostFLDa6htyHIr18QT_0HelVVM.jpg",
+				"name": "Fogón Cocina Mexicana",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "cf33879d-efb0-405b-afd4-efa84f14ed0d",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/89148842_gqTCPrl4vPSPq-sMLtksucHLkzxxKHbduFxlbAOEUaA.jpg",
+				"name": "Barrio Mexican Kitchen & Bar",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "84360402-17d2-4061-92dd-5e8b6ce484cf",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/17061080_MrT4V5HXt-jRWg6IffLOdVyxa6e5ftMFG7lm0jl0HUU.jpg",
+				"name": "Rumba",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "3d06f076-f09e-4e25-b8db-98ed1a044e3f",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/517485_6xyj-Qcw9_kEABsI6CJ9-8jpH96xKf3nlaMEO05aAb4.jpg",
+				"name": "Triple Door",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "LOUNGE",
+						"name": "Lounge"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "8523703f-5d7b-413c-90c2-4589717cb5f0",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/8760851_Y8Y778P27dRjgO1HM7iL1ZLb7Hf6qJfN6zx1LOHeTdg.jpg",
+				"name": "Foundation Nightclub",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "NIGHTCLUB",
+						"name": "Nightclub"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "44626585-f314-49c0-b9ff-22bfcb8ca63d",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/126483714_ocFpDcEvimtGV5rAInhUHoibaYHT9SRgDlM8qEZXI3Q.jpg",
+				"name": "Nue",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "d28519e6-8d5e-43c9-a0b7-307bb4d32468",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/aKFih6F73EANd6sLcSoRUiur1CN2Yd3mk3Fs9H5RX7Q.jpg",
+				"name": "Americana Restaurant",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "db5a7430-94a8-44fd-8d50-f9f5f1098363",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/127991_BQlnM4eNHuIjKyhH4A-zkHjkEOdd8ocNa5KdoZ2zSw0.jpg",
+				"name": "Von's Gustobistro",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "66ffa6a9-444b-4b89-970c-1139a957431e",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/ALVhnWLIvbYGKeeo89U_4CDl35rO-mQH4EsrWxsm220.jpg",
+				"name": "Elysian Fields",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BREWERY",
+						"name": "Brewery"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "f8615fca-28b2-41dd-b50a-98d9b2e3d196",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/94987157_8covJRBlDhDw0FrSSWnAQrOf3VTB__wcELiWJwgw2z4.jpg",
+				"name": "Linda's Tavern",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "DIVE",
+						"name": "Dive Bar"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "e6f01ede-7b12-423d-845e-c596c1fcb357",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/17559974_h43oQCdja49u-MngOOQIc71a4HoQgympru-22ULvbfg.jpg",
+				"name": "The Ruins",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "01f895ad-b217-434a-a54a-d1939a0783d9",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/5415911_SXCJBpllKXAsUyB6DyEdVhR5ohqECtXL5SAp8C8r_5E.jpg",
+				"name": "Cha:n",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "2967b413-3d63-46f9-ac3e-b8666973a1c4",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/25156_MqTcvnTPVWGPr1dwit6vSFgg_GlVkf74sOXZzrNH9fc.jpg",
+				"name": "Daily Grill",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "0ee84a28-00c8-4837-a2f3-cdc217c3f264",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/6060925_33QU3Fvx2SF5aY_Be2X8RJIaECDoe6bj2Ko22bVUeYo.jpg",
+				"name": "BOKA Restaurant + Bar",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "HOTEL",
+						"name": "Hotel Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "87a9e731-1f03-4f8d-be19-0a85174e1a6b",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/7100939_wTtQm0ST0Cgr_yW3hsxPYPlbeqbgI35a0JkkHYt2-YE.jpg",
+				"name": "La Cocina Oaxaquena",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "931a4501-7a6b-4627-9618-f430c112fcce",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/23370778_i4jLbup7prfg1qoeRCkOJMeGzg9pxuKwYDkViUtyuzU.jpg",
+				"name": "Number 6 Cider",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "457d92d4-9d60-41d3-ab78-3ca536c48987",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs1.4sqi.net/img/general/width400/83330665_YmNuPQH0L5JivXSKeolyENZgF3uZLgO2vN_7zNlBz1s.jpg",
+				"name": "Bellini Italian Bistro",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ITALIAN",
+						"name": "Italian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "3ac25fa6-b36c-42a6-8992-147c766b6655",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/75017760_mUT37ZlvXwGfinWYies3lQ5dPQ29DqZtRx8-uGLV7u8.jpg",
+				"name": "Flatstick Pub",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "f6006b40-4fa4-468e-8c31-c97bc42b0a75",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs0.4sqi.net/img/general/width400/222302_sbXMSUCvCsAamiJr4vIKXvXd5hbHR8Yy2uZfKJnV5h0.jpg",
+				"name": "Twisted Pasty",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ENGLISH",
+						"name": "English"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "59c1bd71-9fe9-4981-b287-5efcdd4515c7",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/8597587_RlrNtFmgjz6OFMTQ2KpNJ20INNh4q6VoZrk52tSITp0.jpg",
+				"name": "Far Eats",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "INDIAN",
+						"name": "Indian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "7fc60424-5f66-4152-b782-c7cbb7bbb593",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/129309276_rjBKIOro9n3iSnT_YRDMtkpk5oQlHr2DGladCRADa_Q.jpg",
+				"name": "Red Lantern",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "d656034c-dc01-440b-8c22-892a56759a73",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/135277260_MS9eCtejYPlhRNjPVB2_A12cHAef_aBy6EXj1_FodtM.jpg",
+				"name": "Art Marble 21",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "cccfc74d-5b68-4e7e-8bc2-45a0be3a89cb",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs0.4sqi.net/img/general/width400/8685879_4-LXg9xWGXA3wq09bqSU1UOfRNTygsMuYHgwwjFxyro.jpg",
+				"name": "The Mix Martini Lounge",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "ba399d94-3ac1-4188-a085-9564ae5feaff",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/39780315_sqjtqWxtMrZWgNq7nmSYzbDjoGF7K2utko5kpVfU1Ms.jpg",
+				"name": "88 Keys Sports Bar with Dueling Pianos",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "SPORTS",
+						"name": "Sports Bar"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "a13e5746-9b51-4261-ba4d-2a3724e290a0",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/9457791_qJyrT0YfQGIPVu5cHBuEQc8TaGqxj43unzK0c7vNO14.jpg",
+				"name": "China Harbor",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "bfd2c85a-9e61-48e0-a34d-dc86c1d2e92a",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs1.4sqi.net/img/general/width400/59839114_DqpWDJNB-VBZaq10NgtwWjLeH6j7MWaJkKchPv1nWqo.jpg",
+				"name": "Le Zinc",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "79557719-4a93-4974-8244-2029691a5854",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/44647064_NLyEoWUaGxf_T6xkwsGlz6hskrbKF16F-k7jvEbvulY.jpg",
+				"name": "Al Boccalino",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ITALIAN",
+						"name": "Italian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "ed758954-a94d-426a-af88-309ed3be7ed9",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/40858821_XVxrvYBjOPepYR2d9mFu9U59ccs0ReH5JtYIqeVhQ2g.jpg",
+				"name": "Lark",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "WINE",
+						"name": "Wine Bar"
+					}
+				],
+				"features": {
+					"price_range": 4
+				}
+			},
+			{
+				"uuid": "595f941b-9c09-491f-81b4-e02e4f5a85b2",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/91693_6Qa6doFSJZo9VJQgVG3m1QLu75a49DhkvlrrOaY_YWA.jpg",
+				"name": "Shiro's",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					},
+					{
+						"code": "JAPANESE",
+						"name": "Japanese"
+					},
+					{
+						"code": "SEAFOOD",
+						"name": "Seafood"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "cd967b7f-d49c-4c46-b327-6cbfeec1ccc0",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/nq_bUjm1ch5d5Y1l2lWQhXWzRZzwR1g-x2w7MmUUGGI.jpg",
+				"name": "The Harvest Vine",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SPANISH",
+						"name": "Spanish"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "cc67988a-873c-458d-817f-62588f81bcf7",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/11596962_bqqJw29iSCxrGyZ-i92cJ7S-NJxONHtksS2A_gTWoL8.jpg",
+				"name": "Nishino",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					},
+					{
+						"code": "JAPANESE",
+						"name": "Japanese"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "c4f14406-0512-45e6-af07-3b12db4fa8ed",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/10732564_Er8MXF6yP2T2QPSBAzOWIgcDM762Z0g0pgjaqss9BoM.jpg",
+				"name": "Palace Kitchen",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "676a85b5-5005-429e-b5bc-1b53e5a952d3",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/zTFYa4Pg5Un2mL83LelUg_xVJqHPbeV9M_cuWRiXrsM.jpg",
+				"name": "Tavern Law",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "SPEAKEASY",
+						"name": "Speakeasy"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					},
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "cf13485d-e009-490c-b5bb-b23a9b2123c9",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/279513_bCwUAImApM3hdF4Ss7XtTRNr2AbF1DQxQlasK3mRHXg.jpg",
+				"name": "Anthony's Fish Bar",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SEAFOOD",
+						"name": "Seafood"
+					}
+				],
+				"features": {
+					"price_range": 4
+				}
+			},
+			{
+				"uuid": "519208fe-f668-4fc8-a9e0-2232ecaa4940",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/H4PGZTB5QHQLKWKBBLYVT0AD1EADT3XNQCKMVMGJ3K4S12C4.jpg",
+				"name": "McCormick & Schmick's Seafood",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SEAFOOD",
+						"name": "Seafood"
+					}
+				],
+				"features": {
+					"price_range": 4
+				}
+			},
+			{
+				"uuid": "dd088d02-f5e8-47f0-a799-3099fb6a3e35",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/66729_bg4tg_tPGXBz9bLtNMfs5Mzlq-HwRrLPjetF0Eo-t7I.jpg",
+				"name": "Sushi Kashiba",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "964d4f72-7a1a-466d-8e58-2140c20981eb",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/160471035_Lewadre6G3LzXwfD6rbdcsX8MIzr0P4-CtjrRUqHD6s.jpg",
+				"name": "Stateside",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "VIETNAMESE",
+						"name": "Vietnamese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "6d04f67d-b834-4569-87e6-b3504ea18991",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/19773_dMg0ogGpOKST69ifjeEx_8Zh_uJPiKk06SfsE5GQJDc.jpg",
+				"name": "Café Presse",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "bb6d9072-87bf-4d27-aaee-375752326d20",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/URewniX0rpzHOVlfxQpWtw0bxQMS9W06xy67a2fcjnU.jpg",
+				"name": "Zig Zag Cafe",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "SPEAKEASY",
+						"name": "Speakeasy"
+					},
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					},
+					{
+						"code": "LOUNGE",
+						"name": "Lounge"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "89118482-d930-4d19-b4a2-10c02395e698",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/961718_Jhcca_mRQNVkQg34ACXGSSxwLyIvxzAN-NO23-1qgz8.jpg",
+				"name": "Radiator Whiskey",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "cfdf8235-d42a-491f-8df0-255cdcb0565e",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/2769387_TdJcqpFDxNnu-7o-tUtfS-qMNGHV-QdrSXT7hiw8A98.jpg",
+				"name": "The Needle and Thread",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "SPEAKEASY",
+						"name": "Speakeasy"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "6f43519a-0d9c-485e-bbb7-dd156a360786",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/10414711_FM9CKrwyL-pxMHoshNwpqM0Oq7exxta9PcxEGRX0cA0.jpg",
+				"name": "Seatown Seabar & Rotisserie",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SEAFOOD",
+						"name": "Seafood"
+					},
+					{
+						"code": "SANDWICHES",
+						"name": "Sandwiches"
+					},
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "f083ddd5-3e9c-4c7a-ac53-01b86a79ab8d",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/157536_P7w0Yq_CvABpOGm9Kd6RxWom2T5j7TLGjTq4K-AoKJQ.jpg",
+				"name": "Soi",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "THAI",
+						"name": "Thai"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "400d9258-8ae1-40e0-89c0-0fcfffd1989b",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/7893913__UHEo5BUKAbtuITFTNzU_cuh8-JYajv6VSYo5ndKdHA",
+				"name": "Sun Liquor Lounge",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "LOUNGE",
+						"name": "Lounge"
+					},
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "3bb55f37-dbd3-48a2-a67f-7c1f497103ea",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs3.4sqi.net/img/general/width400/MS2RLCINRBRDUYHK1Y1P2EZP1W5DOXJ4KNF0WHUXSLHELTOM.jpg",
+				"name": "Louisa's Cafe & Bakery",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CAFE",
+						"name": "Cafe"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "5d93c5d8-d29d-4442-af6e-0cb37fac643e",
+				"price_starting_at": 0,
+				"thumbnail": "https://ucarecdn.com/81085321-fd09-4841-b67a-8644026759cb/-/resize/x400/-/format/jpeg/-/progressive/yes/image.jpeg",
+				"name": "Ernest Loves Agnes",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ITALIAN",
+						"name": "Italian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "aba62320-80c5-4ba8-9e52-abbe95c05a26",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/1405086_9HfeDFXxdB4DLxILG2X065tb5-lo5Sp6QMbbFd08h4M.jpg",
+				"name": "Bateau",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "STEAKHOUSE",
+						"name": "Steakhouse"
+					}
+				],
+				"features": {
+					"price_range": 4
+				}
+			},
+			{
+				"uuid": "15239812-a20a-427c-abfb-d07a43d325a1",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/9413428_AS-MDHjeaqHVzihRnllpTNp6yUsIV2bE_rG6DPU9rlM.jpg",
+				"name": "Cactus",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "53963547-f54e-49b8-a5d1-20bedd8bc9ac",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/47190829_AFs-Qcrj8vNE1oThA2qkJJ7QHI-wnKBrOKsq_xm5hAU.jpg",
+				"name": "Duke's Chowder House",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "05504011-dd63-4d87-bdbe-0c0940a76f6f",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/2013491_qrHmVBfpCGhLcbW3vlX2UgjL0DXY06f-4NUlo1sJTZQ.jpg",
+				"name": "Portage Bay Cafe",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "b53d2d12-e354-4d4e-a404-76315dbdb7ca",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs0.4sqi.net/img/general/width400/kdOhv6ts7F8YM7XPz5UfTKwQCGqd72c2z4pt8JiD1-U.jpg",
+				"name": "Wasabi Bistro",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "6243863b-9286-469b-853c-94014667bfda",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/2Z4KOUn8lBK81_8p0xMyzIKbAlDA_Edul7AVqQrwrtc.jpg",
+				"name": "Ohana",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "KARAOKE",
+						"name": "Karaoke Bar"
+					},
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "f9054856-1836-4328-a8cf-af0d068a13f0",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/8103623_JljcIG1WpdeWnByLva5J7UlMnVMXCmcx1VGsZrp_Pbo.jpg",
+				"name": "Sazerac",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "FRENCH",
+						"name": "French"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "90eb3eaf-c198-4b9f-97fe-9feb1a9c9e15",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/JLZU3QSFSSVEXQVL14ZOP4UGAEY1LLEAX5LBBSVRQ1UOV5MP.jpg",
+				"name": "Vios Cafe and Market Place",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "GREEK",
+						"name": "Greek"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "61940e48-d27f-40c3-bae6-6116914e984a",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/1618342_jmNhcFjdWhtKKzDrHGGOMNT7FD0WxFSnjnWwh1v9Cqs.jpg",
+				"name": "Tutta Bella Neapolitan Pizzeria",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ITALIAN",
+						"name": "Italian"
+					},
+					{
+						"code": "PIZZA",
+						"name": "Pizza"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "eb4f6171-5010-405d-be21-92c9b51bfd29",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/jsMN3y3XQ9Xrl8D30Xjf_Ktui27C5E6T5qGtpl6nycc.jpg",
+				"name": "Tandoori Hut",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "INDIAN",
+						"name": "Indian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "6e277635-9b61-4214-93cf-6b3d23a0171f",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/761900_L2J3Uc1XzzRux8Gxn09zxRFBE803uyKnf_DwvkU1lVQ.jpg",
+				"name": "Long Provincial Vietnamese Restaurant",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "VIETNAMESE",
+						"name": "Vietnamese"
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "5b84d843-f173-4cc9-9d23-a6f5a62fb95a",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/1BIIENLLL0V305PPXXXNE321GX505GFSH0AIOHYWKMTEK2FY.jpg",
+				"name": "Cheeky Cafe",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "8eafbc64-a648-4461-8c9e-cd4267a76182",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/950238_KW_pEN_t12vwf8VrtH-F-1klcIrYxg7DkA1tUBa8PVI.jpg",
+				"name": "Sushi Kanpai",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "WINE",
+						"name": "Wine Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "6a27ca81-2890-47a5-bae1-87f1891a04b3",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/6790017_QQiwCRb-2IWwYxmfreRHd8ChwgPofb6CFZaD0USWA_I.jpg",
+				"name": "Cask & Trotter",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "COCKTAIL",
+						"name": "Cocktail Bar"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "0720bca9-2ec5-4b9e-8c2c-e02f9cc82214",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/CIGKSUfZjtySUxz-0rxEfwEGx9UTGec1n3TMTDwk-rc.jpg",
+				"name": "Seven Star Pepper",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "1c9cd530-48ba-48ed-993f-7ac619851aa2",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/15630093_9zWsELTrEBU-B8oFKd3qhpp4K7CMxgSTL0zB3nS8arw.jpg",
+				"name": "Two Doors Down",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "7e0e8871-0a95-42aa-9ef8-a337b3b2ec76",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/32849717__HbY2jkN2a8Sg02zkj_KuGnEo2BN9nf97b1vuluK_Co.jpg",
+				"name": "Q Nightclub",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "NIGHTCLUB",
+						"name": "Nightclub"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					},
+					{
+						"code": "LOUNGE",
+						"name": "Lounge"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "4a7fa30a-09ed-4a23-98af-a3d8c65e0fef",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs2.4sqi.net/img/general/width400/10012510_Fq8OqAp9ELnF2sivDMdoSfCdu23j-Mx7tCNfroHGwxs.jpg",
+				"name": "Restaurant Marron",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "098736fc-c6e4-44e1-b5f3-38261e54eda4",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs0.4sqi.net/img/general/width400/7384126_g8OxdZ_dntMRtRIc-e9nwxdguYSRA41A6HzapD9tRos.jpg",
+				"name": "OBBAR Pocha",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "153bf299-496a-42c9-894a-74bf4f2c5eff",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/393378781_ncts_MtuvUr0s2CJ4Xu53FwuCUiv7HANo1pXTBD7648.jpg",
+				"name": "Omega Ouzeri",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "GREEK",
+						"name": "Greek"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "26e40b9f-c834-4119-b4bf-e26831cbd5ed",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/403991234_zcoq3CgIqxLRpedQ8IvYkcozy_RT-INk2Ww0M035fsE.jpg",
+				"name": "BlueStone",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "1b0f9398-c3fc-4b65-a27f-db79d70e0040",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/10712075_qC2S1QSWpLXxoADkH_cy3IMSSYyu4L9JCmrL8DXwFhE.jpg",
+				"name": "Joyale Seafood Restaurant",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "cc624a17-93e2-43cd-a368-a450f1c9ede4",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/5976463_5xeXIB-RT_7Fj1wJYfhVRzJyMZrrEGdRKWeCgzMhHS4.jpg",
+				"name": "Cuadra No. 32",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "fed93ad0-26b2-4e47-ac5a-cdce1210ef4e",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs1.4sqi.net/img/general/width400/9945705_IWlsYVzjr0l29NFwp8Hoy5buVOBMzFPDU4xooEdBlAY.jpg",
+				"name": "Casco Antiguo",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "9115fdec-13f3-4295-bfc5-f60771766daa",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/tUIScszIyVSUGkacwbk6lx4FEDjAsUX9DEfcxMrJa5w.jpg",
+				"name": "The Hunt Club",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "HOTEL",
+						"name": "Hotel Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "9bb80080-26e7-4bcb-9dad-77b2446215a1",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs3.4sqi.net/img/general/width400/9965074_61R3b070nP-BN2tSEwKMK0iwywVY6U2_X3Uegu7rFIQ.jpg",
+				"name": "Parlor Live Seattle",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "LOUNGE",
+						"name": "Lounge"
+					}
+				],
+				"features": {
+					"price_range": 3
+				}
+			},
+			{
+				"uuid": "a00e3131-4988-4bb9-baed-99e3e7037f24",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs1.4sqi.net/img/general/width400/14309815_KBl6j99x0wj1vJIKRrxWCDem4-N7pjQPKuD8xZomAfg.jpg",
+				"name": "Pike Place Bar & Grill",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "dec69343-fe9d-49c5-bd8d-42fa4f07a84b",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs2.4sqi.net/img/general/width400/49014283_DwL9KmcRaAXua_6wLErcx8Az5T4fdMNL17dQcC6KsIU.jpg",
+				"name": "O'Asian Kitchen",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "6d46b179-1c0a-44d3-afe4-e465ca207a55",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/BEWHJ3VCFXV23QDKRIG2FFMOBHPQIMIBOSF32MUM4YTUOFFS.jpg",
+				"name": "Targy's Tavern",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "DIVE",
+						"name": "Dive Bar"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "e0fcfe13-047f-449f-9aa2-5443ea2342da",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/47987_Wm63LQANwmY_0dAxp0w7Am8BvfThiTqgoEFb-HU909s.jpg",
+				"name": "Hook & Plow",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "baacfc0d-a0bf-4cea-b02f-4b95d0e12c10",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/4td_egTgrGWH643w6TU-bV4bLf0--pbpIh0R4WSdnsM.jpg",
+				"name": "Merchants Cafe & Saloon",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "6eabce4d-7d77-49a7-9436-13a45512ab89",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/2858432_kLr_HHu8hraaG1LQtrCamHCwKDhqqf7cNrZOyhp-xqA.jpg",
+				"name": "Phnom Penh Noodle House",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "63a170d5-9e6f-4c11-b70e-f9542e3a3c2c",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/OJI0HDX2I5U15AD155HLOXHFCH4IBWMUQQNZRVR5RJV5U1AH.jpg",
+				"name": "Octo Sushi",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					},
+					{
+						"code": "JAPANESE",
+						"name": "Japanese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "406f891d-abad-40fc-bb0a-487a23dbe009",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/5256752_HOsm87rVknXbs9hs0ZGA05lI571Taoyw3PDWGtEwSZk.jpg",
+				"name": "The J & M Cafe",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "fb6e350c-b464-4551-826e-31718d8f0a3a",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/5812817_12dN8mCGqWdkMaaeOG9bLsbwZDiZOZewvpx6GJvzMXs.jpg",
+				"name": "Olympia Pizza and Spaghetti House III",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "NIGHTCLUB",
+						"name": "Nightclub"
+					},
+					{
+						"code": "BAR",
+						"name": "Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "3ff378fb-f6d2-4499-b9dd-3eddc852e07f",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/17030682_PWX-DcYwerjHr9-ePA0r5OUl9_VATGAFfNPiBKo-b0o.jpg",
+				"name": "The Bookstore Bar & Café",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "AMERICAN",
+						"name": "American"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "5180222c-797e-440d-a550-93f9e63be0c7",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/30002290__mLA9QcnByo5uJMgjS2OdMpBo9vDxTjpVKuhRHZXnAU.jpg",
+				"name": "Ferry Noodle House",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "THAI",
+						"name": "Thai"
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "c2916e17-67df-4a87-8939-7cc8f3ee9b98",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/974005_hsqDgfXPcBQq-aXucFv4Mtl6lBFmtWeYALFSlpYPa58.jpg",
+				"name": "Chen's Village",
+				"type": {
+					"code": "NIGHTLIFE",
+					"name": "Nightlife"
+				},
+				"categories": [
+					{
+						"code": "KARAOKE",
+						"name": "Karaoke Bar"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "b0301347-a3e2-42f7-a854-a74a2a863066",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/270339_WWhNMriKfxWPR2PZ2epS_IL2lJDAqrJ4ADozEXeydz8.jpg",
+				"name": "Seven Beef",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "VIETNAMESE",
+						"name": "Vietnamese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "88a95035-0978-4cf6-b0da-6248870d12ea",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/H3b_0V2K2ApQ3l9Cjfk2oiEI6tKWS6tZhmdXHG1HraQ.jpg",
+				"name": "Aoki",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "SUSHI",
+						"name": "Sushi"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "36233f9f-07e6-4da4-8073-6c88ee4f3e58",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/58730306_i_uj9eBCwr8Fsk38ZArdnXgzkxPF1sPfF72fzTG0YQ4.jpg",
+				"name": "Pomodoro Restaurant",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ITALIAN",
+						"name": "Italian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "c8915040-3380-48fc-81ff-f3f48bcdba0e",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/64902693_aoWf3PPgOa61r_ydxft0VDsDxz8GJxC59jVQS72zwRg.jpg",
+				"name": "House of Hong",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "ba0df8e1-85df-4ba2-aa4d-73f050bde07c",
+				"price_starting_at": 0,
+				"thumbnail": "https://irs0.4sqi.net/img/general/width400/52167_-1DMhVOFGAVKX0S25_86ABrtYMnNzRDIXNF8iluFPVU.jpg",
+				"name": "Vespolina",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "ITALIAN",
+						"name": "Italian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "7b30225c-804b-466c-b5c2-fe61aedbf4b6",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/25505732_3aPa0tGgnI1PtSpa0fhCUMikJ-fcSr_nJvvdrTAdP1Y.jpg",
+				"name": "Mexico Cantina y Cocina",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "MEXICAN",
+						"name": "Mexican"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "a789c8d5-b2fd-425a-96fb-7ae4218fd7fb",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/122565_MrrQmdX6l9MetwppwpqAVWgybSXEIg30BA0KbZ8WyD8.jpg",
+				"name": "Harbor City Restaurant",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CHINESE",
+						"name": "Chinese"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			},
+			{
+				"uuid": "843f8f1b-f091-4471-8933-8ce365c50379",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/51380698_VxRdgNIfAkZflBbobKa3yoVeLbCuYn9GPfjx7rVOybg.jpg",
+				"name": "Roaring Bowl",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "JAPANESE",
+						"name": "Japanese"
+					},
+					{
+						"code": "ASIAN",
+						"name": "Asian"
+					}
+				],
+				"features": {
+					"price_range": 2
+				}
+			},
+			{
+				"uuid": "47c51dc7-2027-4eb0-bf85-1569aa8759ea",
+				"price_starting_at": 0,
+				"thumbnail": "https://igx.4sqi.net/img/general/width400/48816934_ExFD29q0yarhgyLf22nBKN3t6t4D-ii5d5s38gQgv6I.jpg",
+				"name": "Fruit Bliss Cafe",
+				"type": {
+					"code": "DINING",
+					"name": "Dining"
+				},
+				"categories": [
+					{
+						"code": "CAFE",
+						"name": "Cafe"
+					}
+				],
+				"features": {
+					"price_range": 1
+				}
+			}
+		]
+	}
+}

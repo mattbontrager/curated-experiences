@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700');
+
+$family: 'Roboto', sans-serif;
+$xsm: normal 100 2.2rem $family;
+$sm: normal 700 2.5rem $family;
+$med: normal 100 2.6rem $family;
+$lg: normal 400 3.7rem $family;
+$xlg: normal 500 5rem $family;
+
+html {font-size: 10px;}
+
+html, body {
+	font-family: $family;
+	height: 100%;
+	width: 100%;
+}
+
+h1 {font: $xlg;}
+
+h3 {font: $lg;}
+
+h4 {font: $med;}
+
+p {
+	margin: 0 !important;
+	color: $white;
+}
+
+label {}
+
+input {}
+
+.truncate {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.search-location {
+	font: $lg;
+}
+
+.card-type {
+	font: $xsm;
+	text-transform: uppercase;
+}
+
+.card-title {
+	font: $sm;
+	text-align: left;
+}
+
+.no-results-container {
+	text-align: center;
+	.no-results {
+		text-transform: uppercase;
+		font: $xsm;
+	}
+}
+
+.result-detail-header {
+	text-align: left;
+	> p {
+		font: $lg;
+	}
+}
+
+.result-detail-type {
+	> p {
+		font: $xsm;
+		text-transform: uppercase;
+	}
+}
+
+.result-detail-description {
+	text-align: left;
+	> p {
+		font: $med;
+	}
+}
+
+.result-detail.priceRange {
+	text-align: left;
+	> p {
+		font: $xsm;
+	}
+}
+
+.result-detail-date-dropdown {
+	text-align: left;
+}
+
+.result-detail-check-button {
+	text-align: center;
+	font: $med;
+}
+
+#types-list {
+	> li {
+		font: $med;
+		text-transform: uppercase;
+	}
+}
