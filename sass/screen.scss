@@ -163,10 +163,8 @@ main {
 
 .product-card {
 	@include flex(1);
-	border: 1px solid gray;
 	border-radius: 5px;
-	width: 25vw;
-	max-width: 25vw;
+	max-width: 30vw;
 	height: 60vh;
 	max-height: 60vh;
 	> header {

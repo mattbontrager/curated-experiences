@@ -524,14 +524,12 @@ main {
 .product-card {
   -webkit-flex: 1;
   flex: 1;
-  border: 1px solid gray;
   border-radius: 5px;
-  width: 25vw;
-  max-width: 25vw;
+  max-width: 30vw;
   height: 60vh;
   max-height: 60vh;
 }
-/* line 172, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .product-card > header {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -544,12 +542,12 @@ main {
   border-top-right-radius: 0.5rem;
   border-top-left-radius: 0.5rem;
 }
-/* line 181, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .product-card > header .product-type-name, .product-card > header .product-name {
   color: #FFFFFF;
   font-size: 3rem !important;
 }
-/* line 186, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .product-card > section {
   -webkit-flex: 5;
   flex: 5;
@@ -561,7 +559,7 @@ main {
   position: relative;
   overflow: hidden;
 }
-/* line 193, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .product-card > section img {
   min-width: 100%;
   position: absolute;
