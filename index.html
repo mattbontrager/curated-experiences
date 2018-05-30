@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 
+		<script src="js/webcomponents-lite.js"></script>
+
 		<!-- this viewport meta tag configures the mobile device viewport behavior -->
 		<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -40,6 +42,9 @@
 		<!--[if IE]>
 			<link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		<![endif]-->
+
+		<link rel="import" href="components/cards.html">
+		<link rel="import" href="components/detail.html">
 	</head>
 	<body>
 		<div id="splash" class="hidden flex absolute-center">
@@ -62,48 +67,6 @@
 					</ul>
 				</header>
 				<section id="cards-container" class="flex row space-around v-center">
-					<article id="card-1" class="flex column product-card">
-						<header class="top flex column">
-							<div class="top flex row space-between">
-								<h4 class="left product-type-name">Type</h4>
-								<button class="right close-icon"></button>
-							</div>
-							<div class="bottom flex">
-								<h3 class="product-name">product name</h3>
-							</div>
-						</header>
-						<section class="bottom product-image-container">
-							<img src="https://igx.4sqi.net/img/general/width540/556543_MFjq_N4OSRlbFeEs-86k2p_F3h39JTvbIuQJBnlJdWE.jpg">
-						</section>
-					</article>
-					<article id="card-2" class="flex column product-card">
-						<header class="top flex column">
-							<div class="top flex row space-between">
-								<h4 class="left product-type-name">Type</h4>
-								<button class="right close-icon"></button>
-							</div>
-							<div class="bottom flex">
-								<h3 class="product-name">product name</h3>
-							</div>
-						</header>
-						<section class="bottom product-image-container">
-							<img src="https://igx.4sqi.net/img/general/width640/14096_xsSWl2TwydwSV4SphjbqU4DyXw0siL9MOVHTfy2g4dY.jpg">
-						</section>
-					</article>
-					<article id="card-3" class="flex column product-card">
-						<header class="top flex column">
-							<div class="top flex row space-between">
-								<h4 class="left product-type-name">Type</h4>
-								<button class="right close-icon"></button>
-							</div>
-							<div class="bottom flex">
-								<h3 class="product-name">product name</h3>
-							</div>
-						</header>
-						<section class="bottom product-image-container">
-							<img src="https://igx.4sqi.net/img/general/width1000/102704389_hKoAodYzemU2PHmG0WA6SNv7p09a-vdW1-A9y9ugaxU.jpg">
-						</section>
-					</article>
 				</section>
 				<footer id="product-types-container">
 					<div id="product-types" class="row no-wrap"></div>
@@ -208,6 +171,7 @@
 			</article>
 		</main>
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/moment/moment.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
