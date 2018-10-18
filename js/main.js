@@ -28,7 +28,7 @@ const Times = {
 
 		return {
 			days: moment().daysInMonth(),
-			months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+			months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
 			years: y
 		};
 	},
@@ -108,6 +108,7 @@ const isObject = thing => {
 	!!development && console.log('is it an object: ', regObj.test(toString.call(thing)));
 	return regObj.test(toString.call(thing));
 };
+
 const deleteNull = obj => {
 	!!development && console.log('in deleteNull with: ', obj);
 	if (isObject(obj)) {
@@ -145,6 +146,7 @@ const Ajax = {
 
 class Product {
 	constructor(_product) {
+		this._position = 0;
 		for (const [key, value] of Object.entries(_product)) {
 			this[key] = value;
 		}
@@ -172,19 +174,20 @@ class ProductList {
 
 		this.products = _products;
 
-		for (var i = 0; i < this.products.length; i++) {
-			var product = this.products[i];
-			if (product.type.name && product.type.name.length && !this.productTypes.includes(product.type.name)) {
-				this.productTypes.push(product.type.name);
-			}
+		if (this.products.length) {
+			this.products.forEach(product => {
+				if (product.type.name && product.type.name.length && !this.productTypes.includes(product.type.name)) {
+					this.productTypes.push(product.type.name);
+				}
 
-			if (!this.city && product.locations[0].city && product.locations[0].city.length) {
-				this.city = product.locations[0].city;
-			}
+				if (!this.city && product.locations[0].city && product.locations[0].city.length) {
+					this.city = product.locations[0].city;
+				}
 
-			if (!this.state && product.locations[0].region && product.locations[0].region.length) {
-				this.state = product.locations[0].region;
-			}
+				if (!this.state && product.locations[0].region && product.locations[0].region.length) {
+					this.state = product.locations[0].region;
+				}
+			});
 		}
 	}
 }
@@ -232,10 +235,10 @@ var App = (function() {
 				return results.products;
 			});
 		},
-		createLocalProducts: (_products) => {
+		createLocalProducts: (products) => {
 			return new Promise((resolve, reject) => {
 				let i = 1;
-				_products.forEach(product => {
+				products.forEach(product => {
 					let p = new Product(product);
 					let pos = (i % 3 === 0) ? 3: i % 3;
 					p.position = pos;
@@ -248,8 +251,8 @@ var App = (function() {
 		createLocalListOfProducts: () => {
 			return new Promise((resolve, reject) => {
 				hereProducts = new ProductList('here', localProducts);
-				!!development && console.log('hereProducts: ', hereProducts);
-				window.hereProducts = hereProducts;
+				console.log('hereProducts: ', hereProducts);
+				window.hereProducts = development ? hereProducts: null;
 				self.where = 'here';
 				resolve();
 			});
@@ -676,8 +679,8 @@ const loadScript = src => {
 		script.async = true;
 		script.src = src;
 		script.onload = resolve;
-		scrip.onerror = reject;
-		document.head.appendChild(script);
+		script.onerror = reject;
+		document.body.appendChild(script);
 	});
 };
 
