@@ -1,0 +1,185 @@
+<template id="product-card-tmpl">
+	<style>
+		#product-card {
+			border-radius: 5px;
+			flex: 1;
+			height: 60vh;
+			max-height: 60vh;
+			max-width: 30vw;
+			display: flex;
+			flex-flow: column nowrap;
+		}
+		div[top], div[left] {
+			order: 1;
+		}
+		div[bottom], div[right] {
+			order: 1;
+		}
+		header {
+			background-color: rgba(10, 10, 10, 0.6);
+			border-top-left-radius: 0.5rem;
+			border-top-right-radius: 0.5rem;
+			box-sizing: border-box;
+			display: flex;
+			flex-flow: column nowrap;
+			flex: 1;
+			order: 1;
+			padding: 0.5rem;
+			position: relative;
+		}
+
+		#card-header-top-row {
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			order: 1;
+		}
+
+		#close-button {
+			background: url('images/close.png');
+			background-size: contain;
+			cursor: pointer;
+			height: 2.4rem;
+			width: 2.4rem;
+		}
+
+		#card-header-bottom-row {
+			order: 2;
+		}
+
+		h2, h3 {
+			color: white;
+			margin: 0;
+		}
+
+		h2 {
+			font-size: 20px !important;
+		}
+
+		h3 {
+			font-size: 28px !important;
+		}
+
+		section {
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			box-sizing: border-box;
+			flex: 5;
+			order: 2;
+			overflow: hidden;
+			position: relative;
+		}
+
+		#product-image {
+			height: 100%;
+			left: 50%;
+			min-width: 100%;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			width: auto;
+		}
+	</style>
+	<article id="product-card">
+		<header>
+			<div id="card-header-top-row">
+				<h2 id="product-type-name"><slot left name="product-type-name">Product Type</slot></h2>
+				<slot name="close-button"></slot>
+			</div>
+			<div id="card-header-bottom-row">
+				<h3><slot name="product-name">product name</slot></h3>
+			</div>
+		</header>
+		<section id="product-details">
+			<slot id="product-image" name="product-image"></slot>
+		</section>
+	</article>
+</template>
+<script>
+	'use strict';
+	(function() {
+		let thisImportDoc = document.currentScript.ownerDocument;
+		var self;
+		class ProductCard extends HTMLElement {
+			constructor() {
+				!!development && console.log('in ProductCard constructor');
+				super();
+				let shadowRoot = this.attachShadow({mode: 'open', delegatesClick: true});
+				const template = thisImportDoc.getElementById('product-card-tmpl');
+				shadowRoot.appendChild(template.content.cloneNode(true));
+			}
+			static get observedAttributes() {
+				console.log('in observedAttributes');
+				return ['visible', 'position', 'productid'];
+			}
+			static get template() {
+				console.log('in ProductCard.get template');
+				if (!this._template) {
+					this._template = thisImportDoc.querySelector('#product-card-tmpl');
+				}
+				return this._template;
+			}
+			connectedCallback() {
+				console.log('ProductCard connected to page');
+				const supportsNativeShadowDOM = !!HTMLElement.prototype.attachShadow;
+				if (!supportsNativeShadowDOM) {ShadyCSS.applyStyle(this)}
+
+				this.addEventListener('click', this._details);
+			}
+			disconnectedCallback() {
+				console.log('ProductCard disconnected from page');
+			}
+			adoptedCallback() {
+				console.log('ProductCard adopted to page');
+			}
+			attributeChangedCallback(name, oldValue, newValue) {
+				console.log(`product card attribute ${name} changed from ${oldValue} to ${newValue}`);
+			}
+			_details(e) {
+				!!development && console.log('going to show product details for product');
+				let openProductDetails = new CustomEvent('openProductDetails', {
+					bubbles: true,
+					composed: true,
+					detail: {
+						position: this.position,
+						productId: this.productid
+					}
+				});
+				this.dispatchEvent(openProductDetails);
+			}
+			get visible() {
+				return this.hasAttribute('visible');
+			}
+			set visible(val) {
+				if (val) {
+					this.setAttribute('visible', '');
+				} else {
+					this.removeAttribute('visible');
+				}
+			}
+			get position() {
+				return this.hasAttribute('position') ? this.getAttribute('position'): this.hasAttribute('position');
+			}
+			set position(pos) {
+				if (val) {
+					this.setAttribute('position', pos);
+				} else {
+					this.removeAttribute('position');
+				}
+			}
+			get productid() {
+				return this.hasAttribute('productid') ? this.getAttribute('productid'): this.hasAttribute('productid');
+			}
+			set productid(pos) {
+				if (val) {
+					this.setAttribute('productid', pos);
+				} else {
+					this.removeAttribute('productid');
+				}
+			}
+		}
+
+		// ShadyCSS.prepareTemplate(ProductCard.template, 'product-card');
+		customElements.define('product-card', ProductCard);
+	}());
+</script>

@@ -1,0 +1,118 @@
+<template id="keyboard-tmpl">
+	<style>
+
+	</style>
+	<form id="keyboard">
+		<div class="row-1 keyboard-row">
+			<button id="q" value="q" class="caps key">q</button>
+			<button id="w" value="w" class="caps key">w</button>
+			<button id="e" value="e" class="caps key">e</button>
+			<button id="r" value="r" class="caps key">r</button>
+			<button id="t" value="t" class="caps key">t</button>
+			<button id="y" value="y" class="caps key">y</button>
+			<button id="u" value="u" class="caps key">u</button>
+			<button id="i" value="i" class="caps key">i</button>
+			<button id="o" value="o" class="caps key">o</button>
+			<button id="p" value="p" class="caps key">p</button>
+		</div>
+		<div class="row-2 keyboard-row">
+			<button id="a" value="a" class="caps key">a</button>
+			<button id="s" value="s" class="caps key">s</button>
+			<button id="d" value="d" class="caps key">d</button>
+			<button id="f" value="f" class="caps key">f</button>
+			<button id="g" value="g" class="caps key">g</button>
+			<button id="h" value="h" class="caps key">h</button>
+			<button id="j" value="j" class="caps key">j</button>
+			<button id="k" value="k" class="caps key">k</button>
+			<button id="l" value="l" class="caps key">l</button>
+		</div>
+		<div class="row-3 keyboard-row">
+			<button id="shiftkey" class="caps key capsOn" style="color: transparent;">.</button>
+			<button id="z" value="z" class="caps key">z</button>
+			<button id="x" value="x" class="caps key">x</button>
+			<button id="c" value="c" class="caps key">c</button>
+			<button id="v" value="v" class="caps key">v</button>
+			<button id="b" value="b" class="caps key">b</button>
+			<button id="n" value="n" class="caps key">n</button>
+			<button id="m" value="m" class="caps key">m</button>
+			<button id="deletekey" value="deletekey" class="caps key modifier-key delete-disabled" style="color: transparent;">.</button>
+		</div>
+		<div class="row-4 keyboard-row">
+			<button
+				id="symbolkey"
+				value="symbolkey"
+				class="caps modifier-key"
+				data-target="Phorm"
+				data-behavior="keyBindings"
+				data-thing="pressed the symbol key">
+					&amp;123
+				</button>
+			<button id="commakey" value="," class="caps key" style="position: relative; top: 3px; right: 2px;">,</button>
+			<button id="spacebar" value="spacebar" class="caps modifier-key" style="color: transparent;">.</button>
+			<button id="." value="." class="caps key" style="position: relative; top: 3px; left: 1px;">.</button>
+			<button
+				id="returnkey"
+				class="caps modifier-key"
+				type="button"
+				value="returnkey"
+				data-target="Phorm"
+				data-behavior="show"
+				data-thing="date-picker-container">
+				next
+			</button>
+		</div>
+		<!-- <button class="keyboard-back-button">BACK</button> -->
+	</form>
+</template>
+<script>
+	'use strict';
+	(function() {
+		let thisImportDoc = document.currentScript.ownerDocument;
+		var self;
+		class Keyboard extends HTMLElement {
+			constructor() {
+				super();
+				let shadowRoot = this.attachShadow({mode: 'open'});
+				const template = thisImportDoc.getElementById('keyboard-tmpl');
+				shadowRoot.appendChild(template.content.cloneNode(true));
+			}
+			static get observedAttributes() {
+				console.log('in observedAttributes');
+				return ['visible'];
+			}
+			static get template() {
+				console.log('in Keyboard.get template');
+				if (!this._template) {
+					this._template = thisImportDoc.querySelector('#keyboard-tmpl');
+				}
+				return this._template;
+			}
+			connectedCallback() {
+				console.log('Keyboard connected to page');
+				const supportsNativeShadowDOM = !!HTMLElement.prototype.attachShadow;
+				if (!supportsNativeShadowDOM) {ShadyCSS.applyStyle(this)}
+				// this.addEventListener('click', this._details);
+			}
+			disconnectedCallback() {
+				console.log('Keyboard disconnected from page');
+			}
+			adoptedCallback() {
+				console.log('Keyboard adopted to page');
+			}
+			attributeChangedCallback(name, oldValue, newValue) {
+				console.log(`keyboard attribute ${name} changed from ${oldValue} to ${newValue}`);
+			}
+			get visible() {
+				return this.hasAttribute('visible');
+			}
+			set visible(val) {
+				if (val) {
+					this.setAttribute('visible', '');
+				} else {
+					this.removeAttribute('visible');
+				}
+			}
+		}
+		customElements.define('custom-keyboard', Keyboard);
+	}());
+</script>

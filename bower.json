@@ -17,6 +17,9 @@
   ],
   "dependencies": {
     "jquery": "^3.3.1",
-    "moment": "^2.22.1"
+    "moment": "^2.22.1",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^2.0.0",
+    "shadydom": "webcomponents/shadydom#^1.0.14",
+    "shadycss": "webcomponents/shadycss#^1.2.1"
   }
 }

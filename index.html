@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 
+		<script src="js/webcomponents-lite.js"></script>
+
 		<!-- this viewport meta tag configures the mobile device viewport behavior -->
 		<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -40,6 +42,11 @@
 		<!--[if IE]>
 			<link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		<![endif]-->
+
+		<link rel="import" href="components/cards.html">
+		<link rel="import" href="components/detail.html">
+		<link rel="import" href="components/keyboard.html">
+
 	</head>
 	<body>
 		<div id="splash" class="hidden flex absolute-center">
@@ -62,48 +69,6 @@
 					</ul>
 				</header>
 				<section id="cards-container" class="flex row space-around v-center">
-					<article id="card-1" class="flex column product-card">
-						<header class="top flex column">
-							<div class="top flex row space-between">
-								<h4 class="left product-type-name">Type</h4>
-								<button class="right close-icon"></button>
-							</div>
-							<div class="bottom flex">
-								<h3 class="product-name">product name</h3>
-							</div>
-						</header>
-						<section class="bottom product-image-container">
-							<img src="https://igx.4sqi.net/img/general/width540/556543_MFjq_N4OSRlbFeEs-86k2p_F3h39JTvbIuQJBnlJdWE.jpg">
-						</section>
-					</article>
-					<article id="card-2" class="flex column product-card">
-						<header class="top flex column">
-							<div class="top flex row space-between">
-								<h4 class="left product-type-name">Type</h4>
-								<button class="right close-icon"></button>
-							</div>
-							<div class="bottom flex">
-								<h3 class="product-name">product name</h3>
-							</div>
-						</header>
-						<section class="bottom product-image-container">
-							<img src="https://igx.4sqi.net/img/general/width640/14096_xsSWl2TwydwSV4SphjbqU4DyXw0siL9MOVHTfy2g4dY.jpg">
-						</section>
-					</article>
-					<article id="card-3" class="flex column product-card">
-						<header class="top flex column">
-							<div class="top flex row space-between">
-								<h4 class="left product-type-name">Type</h4>
-								<button class="right close-icon"></button>
-							</div>
-							<div class="bottom flex">
-								<h3 class="product-name">product name</h3>
-							</div>
-						</header>
-						<section class="bottom product-image-container">
-							<img src="https://igx.4sqi.net/img/general/width1000/102704389_hKoAodYzemU2PHmG0WA6SNv7p09a-vdW1-A9y9ugaxU.jpg">
-						</section>
-					</article>
 				</section>
 				<footer id="product-types-container">
 					<div id="product-types" class="row no-wrap"></div>
@@ -133,67 +98,7 @@
 						<!-- nothing to do with final form. but.. onClick will populate value of input:custom-search-location for final form -->
 					<!-- </div> -->
 
-					<form id="keyboard">
-						<div class="row-1 keyboard-row">
-							<button id="q" value="q" class="caps key">q</button>
-							<button id="w" value="w" class="caps key">w</button>
-							<button id="e" value="e" class="caps key">e</button>
-							<button id="r" value="r" class="caps key">r</button>
-							<button id="t" value="t" class="caps key">t</button>
-							<button id="y" value="y" class="caps key">y</button>
-							<button id="u" value="u" class="caps key">u</button>
-							<button id="i" value="i" class="caps key">i</button>
-							<button id="o" value="o" class="caps key">o</button>
-							<button id="p" value="p" class="caps key">p</button>
-						</div>
-						<div class="row-2 keyboard-row">
-							<button id="a" value="a" class="caps key">a</button>
-							<button id="s" value="s" class="caps key">s</button>
-							<button id="d" value="d" class="caps key">d</button>
-							<button id="f" value="f" class="caps key">f</button>
-							<button id="g" value="g" class="caps key">g</button>
-							<button id="h" value="h" class="caps key">h</button>
-							<button id="j" value="j" class="caps key">j</button>
-							<button id="k" value="k" class="caps key">k</button>
-							<button id="l" value="l" class="caps key">l</button>
-						</div>
-						<div class="row-3 keyboard-row">
-							<button id="shiftkey" class="caps key capsOn" style="color: transparent;">.</button>
-							<button id="z" value="z" class="caps key">z</button>
-							<button id="x" value="x" class="caps key">x</button>
-							<button id="c" value="c" class="caps key">c</button>
-							<button id="v" value="v" class="caps key">v</button>
-							<button id="b" value="b" class="caps key">b</button>
-							<button id="n" value="n" class="caps key">n</button>
-							<button id="m" value="m" class="caps key">m</button>
-							<button id="deletekey" value="deletekey" class="caps key modifier-key delete-disabled" style="color: transparent;">.</button>
-						</div>
-						<div class="row-4 keyboard-row">
-							<button
-								id="symbolkey"
-								value="symbolkey"
-								class="caps modifier-key"
-								data-target="Phorm"
-								data-behavior="keyBindings"
-								data-thing="pressed the symbol key">
-									&amp;123
-								</button>
-							<button id="commakey" value="," class="caps key" style="position: relative; top: 3px; right: 2px;">,</button>
-							<button id="spacebar" value="spacebar" class="caps modifier-key" style="color: transparent;">.</button>
-							<button id="." value="." class="caps key" style="position: relative; top: 3px; left: 1px;">.</button>
-							<button
-								id="returnkey"
-								class="caps modifier-key"
-								type="button"
-								value="returnkey"
-								data-target="Phorm"
-								data-behavior="show"
-								data-thing="date-picker-container">
-								next
-							</button>
-						</div>
-						<!-- <button class="keyboard-back-button">BACK</button> -->
-					</form>
+					<!-- keyboard goes here -->
 				</section>
 				<section id="date-picker-container" class="hidden">
 					<ul id="date-picker-day"></ul>
@@ -207,7 +112,7 @@
 				</section>
 			</article>
 		</main>
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="js/moment.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>

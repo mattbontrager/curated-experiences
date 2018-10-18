@@ -1,0 +1,377 @@
+<template id="product-detail-tmpl">
+	<style>
+		:host {
+			align-items: center;
+			display: none;
+			flex-flow: row wrap;
+			justify-content: center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border: 1px solid red;
+		}
+		:host([visible]) {
+			display: flex;
+		}
+		.hidden {
+			display: none;
+		}
+
+		#item-view {
+			box-sizing: border-box;
+			height: 67vh;
+			width: 92vw;
+			border: 1px solid blue;
+		}
+		#item-view header {
+			flex: 1;
+			text-align: left;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-start;
+			align-items: center;
+			border: 1px solid yellow;
+		}
+		#item-view header p {
+			color: white;
+			font: normal 400 3.7rem/7rem 'Roboto', sans-serif;
+		}
+		#item-view .item-primary-view {
+			align-items: center;
+			background-image: -moz-linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.2));
+			background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(10, 10, 10, 0.3)), color-stop(100%, rgba(10, 10, 10, 0.2)));
+			background-image: -webkit-linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.2));
+			background-image: linear-gradient(rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.2));
+			background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhMGEwYSIgc3RvcC1vcGFjaXR5PSIwLjMiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwYTBhMGEiIHN0b3Atb3BhY2l0eT0iMC4yIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+			background-size: 100%;
+			border-radius: 1rem;
+			box-sizing: border-box;
+			color: white;
+			display: flex;
+			flex-flow: column nowrap;
+			flex: 3;
+			justify-content: center;
+			margin-bottom: 2rem;
+			border: 1px solid pink;
+		}
+
+		#item-view .item-primary-view .item-view-top-row {
+			display: flex;
+			flex-flow: row nowrap;
+			justify-content: space-between;
+			order: 1;
+			border: 1px solid purple;
+		}
+		#item-view .item-primary-view .item-view-top-row > .item-type {
+		  font: normal 100 2.4rem/3.6rem 'Roboto', sans-serif;
+		  color: white;
+		  text-transform: uppercase;
+		  width: 650px;
+		  display: inline-block;
+		  vertical-align: top;
+		}
+		#item-view .item-primary-view .item-view-top-row .close-button {
+			background: transparent url(images/close.png) center center/24px no-repeat;
+			min-height: 72px;
+			min-width: 74px;
+			position: absolute;
+			top: -18px;
+			right: -18px;
+			outline: none;
+			border: none;
+		}
+		#item-view .item-primary-view .item-view-bottom-row {
+			width: 740px;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-left-side {
+		  width: 39%;
+		  display: inline-block;
+		  background-color: grey;
+		  vertical-align: top;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-left-side .item-view-item-image {
+		  background-size: cover;
+		  background-repeat: no-repeat;
+		  height: 256px;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side {
+		  width: 60%;
+		  box-sizing: border-box;
+		  box-sizing: border-box;
+		  padding: 0 1rem;
+		  display: inline-block;
+		  position: relative;
+		  top: -5px;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-description-error-container {
+		  height: 218px;
+		  max-height: 218px;
+		  min-height: 218px;
+		  overflow: hidden;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-description-error-container .item-description-view, #item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-description-error-container .item-error-view {
+		  font: normal 26px 'Roboto', sans-serif;
+		  line-height: 1;
+		  word-break: break-word;
+		  height: 204px;
+		  max-height: 204px;
+		  max-width: 436px;
+		  overflow: hidden;
+		}
+
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container {
+		  width: 424px;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container .item-availability-view, #item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container .item-checkout-view {
+		  width: 424px;
+		  text-align: center;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container .item-availability-view > div, #item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container .item-checkout-view > div {
+		  text-align: center;
+		  font: normal 2.2rem 'Roboto', sans-serif;
+		  border: 1px inset #999;
+		  box-sizing: border-box;
+		  padding: 5px;
+		}
+		#item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container .item-availability-view > select, #item-view .item-primary-view .item-view-bottom-row .item-view-right-side .item-availability-checkout-container .item-checkout-view > select {
+		  text-align: center;
+		  font: normal 2.2rem 'Roboto', sans-serif;
+		  border: 1px inset #999;
+		  box-sizing: border-box;
+		  -webkit-appearance: none;
+		  background-color: transparent;
+		  color: white;
+		  padding: 0 2px;
+		  margin-right: 5px;
+		}
+
+		.item-availability-date-input, .item-availability-time-input {
+			margin: 0 !important;
+		}
+	</style>
+	<article id="item-view">
+		<header class="item-view-header">
+			<p class="item-view-item-name"><slot name="product-name">The Bontery</slot></p>
+		</header>
+		<section class="item-primary-view">
+			<div class="item-view-top-row">
+				<p class="item-type"><slot name="product-type">nightline</slot></p>
+				<button id="item-view-close-button" type="button" class="close-button back-button"></button>
+			</div>
+			<div class="item-view-bottom-row">
+				<div class="item-view-left-side">
+					<div class="item-view-item-image"></div>
+				</div>
+				<div class="item-view-right-side">
+					<div class="item-description-error-container">
+						<div class="item-description-view"><slot name="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt modi repellat placeat eum ipsum repudiandae nihil voluptatum, mollitia atque reiciendis, ex ratione quaerat laborum iste odit dicta! Quasi aperiam rem, minus id officia quibusdam saepe recusandae itaque perspiciatis sint, iure odio explicabo cum sunt. Molestiae placeat eveniet vel, magnam ad!</slot></div>
+						<div class="error-state item-error-view hidden">&#128712; Sold Out</div>
+					</div>
+					<div class="item-availability-checkout-container">
+						<div class="item-availability-view">
+							<select class="item-availability-date-input interaction-button">
+								<option class="availability-date-option">15 SEP 17</option>
+							</select>
+							<select class="item-availability-time-input interaction-button">
+								<option class="availability-time-option">4:30 PM</option>
+							</select>
+							<button class="item-availability-check-button interaction-button">CHECK</button>
+						</div>
+						<div class="item-checkout-view hidden">
+							<select class="item-availability-quantity-input">
+								<option class="item-availability-quantity-option" value="1">QTY: 1</option>
+								<option class="item-availability-quantity-option" value="2">QTY: 2</option>
+								<option class="item-availability-quantity-option" value="3">QTY: 3</option>
+								<option class="item-availability-quantity-option" value="4">QTY: 4</option>
+							</select>
+							<button class="add-to-itinerary-button interaction-button">BOOK IT</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</article>
+</template>
+
+<script>
+	'use strict';
+	(function() {
+		let thisImportDoc = document.currentScript.ownerDocument;
+		var self;
+		/**
+		 * an object containing helper methods to calculate times, dates, durations, etc.
+		 * @type {Object}
+		 */
+		const Times = {
+			getDateInfo: function getDateInfo() {
+				!!development && console.log('in getDateInfo');
+				var startingYear = 1960,
+					numOfYears = 100,
+					y = [];
+
+				y.push(startingYear);
+
+				for (let i = 0; i < numOfYears; i++) {
+					y.push(startingYear++);
+				}
+
+				return {
+					days: moment().daysInMonth(),
+					months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'],
+					years: y
+				};
+			},
+			nearestHalfHour: function nearestHalfHour() {
+				!!development && console.log('in nearestHalfHour');
+				var rounding = 30 * 60 * 1000,
+					now = moment(),
+					start;
+
+				return moment(Math.ceil((+now) / rounding) * rounding);
+			},
+			hoursUntilMidnight: function hoursUntilMidnight() {
+				!!development && console.log('in hoursUntilMidnight');
+				var midnight = new Date(),
+					hoursUntil;
+
+				midnight.setHours(24);
+				midnight.setMinutes(0);
+				midnight.setSeconds(0);
+				midnight.setMilliseconds(0);
+
+				hoursUntil = (midnight.getTime() - new Date().getTime() ) / 1000 / 60 / 60;
+				!!development && console.log('hoursUntil: ', parseInt(hoursUntil, 10));
+
+				return parseInt(hoursUntil, 10);
+			},
+			get: function getTimes() {
+				!!development && console.log('in getTimes');
+				var now = moment(),
+					hoursLeftInTheDay = this.hoursUntilMidnight(),
+					halfHoursLeft = ((hoursLeftInTheDay * 2) > 4) ? 4: hoursLeftInTheDay * 2,
+					defaultFrom = now.format("YYYY-MM-DD"),
+					plusTomorrow = moment().add(1, 'days'),
+					plusOneWeek = moment().add(7, 'days'),
+					plusThirtyMinutes = now.add(30, 'minutes'),
+					defaultTo = plusOneWeek.format("YYYY-MM-DD"),
+					nearestHalfHour = this.nearestHalfHour(),
+					availabilities = [],
+					availabilityDates = [],
+					availabilityTimes = [],
+					availabilityDateFrom = now.format("DD MMM YY"),
+					availabilityTimeFrom = nearestHalfHour.format("hh mm A"),
+					i = 0,
+					j = 0,
+					d = 3;
+
+				console.log('halfHoursLeft: ', halfHoursLeft);
+
+				availabilityDates.push(availabilityDateFrom);
+				availabilityTimes.push(availabilityTimeFrom);
+
+				for (; i < d; i++) {
+					var addDay = now.add(1, 'days');
+					availabilityDates.push(addDay.format("DD MMM YY"));
+				}
+
+				for (; j < halfHoursLeft; j++) {
+					var addTime = nearestHalfHour.add(30, 'minutes')
+					availabilityTimes.push(addTime.format("hh mm A"));
+				}
+
+				availabilities.dates = availabilityDates;
+				availabilities.times = availabilityTimes;
+
+				!!development && console.log('availabilities: ', availabilities);
+
+
+				return {
+					from: defaultFrom,
+					to: defaultTo,
+					availabilities: availabilities
+				};
+			}
+		};
+		class ProductDetail extends HTMLElement {
+			constructor() {
+				!!development && console.log('in ProductView constructor');
+				super();
+				let shadowRoot = this.attachShadow({mode: 'open', delegatesClick: true});
+				const template = thisImportDoc.getElementById('product-detail-tmpl');
+				shadowRoot.appendChild(template.content.cloneNode(true));
+			}
+			static get observedAttributes() {
+				console.log('in observedAttributes');
+				return ['visible', 'productid'];
+			}
+			static get template() {
+				console.log('in ProductDetail.get template');
+				if (!this._template) {
+					this._template = thisImportDoc.querySelector('#product-detail-tmpl');
+				}
+				return this._template;
+			}
+			connectedCallback() {
+				console.log('ProductDetail connected to page');
+				const supportsNativeShadowDOM = !!HTMLElement.prototype.attachShadow;
+				if (!supportsNativeShadowDOM) {ShadyCSS.applyStyle(this)}
+
+				var dts = Times.get(),
+					dates = dts.availabilities.dates,
+					tempd = [],
+					times = dts.availabilities.times,
+					tempt = [];
+
+				$.each(dates, function(i, d) {
+					tempd.push('<option class="availability-date-option" data-date-option-number="' + i + '">' + d + '</option>');
+				});
+
+				$.each(times, function(j, t) {
+					tempt.push('<option class="availability-time-option" data-time-option-number"' + j + '">' + t + '</option>');
+				});
+
+				$('.item-availability-date-input').empty().append(tempd.join(''));
+				$('.item-availability-time-input').empty().append(tempt.join(''));
+				$('.item-availability-date-input').prop('selectedIndex', 0);
+				$('.item-availability-time-input').prop('selectedIndex', 0);
+				$('.item-availability-quantity-input').prop('selectedIndex', 0);
+
+				// this.addEventListener('click', this._details);
+			}
+			disconnectedCallback() {
+				console.log('ProductDetail disconnected from page');
+			}
+			adoptedCallback() {
+				console.log('ProductDetail adopted to page');
+			}
+			attributeChangedCallback(name, oldValue, newValue) {
+				console.log(`product card attribute ${name} changed from ${oldValue} to ${newValue}`);
+			}
+			get visible() {
+				return this.hasAttribute('visible');
+			}
+			set visible(val) {
+				if (val) {
+					this.setAttribute('visible', '');
+				} else {
+					this.removeAttribute('visible');
+				}
+			}
+			get productid() {
+				return this.hasAttribute('productid') ? this.getAttribute('productid'): this.hasAttribute('productid');
+			}
+			set productid(pos) {
+				if (val) {
+					this.setAttribute('productid', pos);
+				} else {
+					this.removeAttribute('productid');
+				}
+			}
+		}
+
+		// ShadyCSS.prepareTemplate(ProductDetail.template, 'product-card');
+		customElements.define('product-detail', ProductDetail);
+	}());
+</script>
